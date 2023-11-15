@@ -3,10 +3,6 @@ package com.lab4;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
-import scala.concurrent.duration.Duration;
-
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 import static akka.pattern.Patterns.ask;
 
@@ -16,23 +12,32 @@ public class ClientActor extends AbstractActor {
     @Override
     public Receive createReceive() {
         return receiveBuilder()
-                .match(Message.class, this::onGetMessage)
-                .match(SleepMessage.class, this::onPutMessage)
-                .match(WakeupMessage.class, this::setServer)
+                .match(ServerReferenceMessage.class,this::setServer)
+                .match(Message.class, this::onMessage)
+                .match(SleepMessage.class, this::onSleepMessage)
+                .match(WakeupMessage.class, this::onWakeupMessage)
                 .build();
     }
 
-    private void onGetMessage(Message msg) throws InterruptedException, TimeoutException {
-        String res = (String) ask(server, msg, 500)
-                .result(Duration.create(5, TimeUnit.SECONDS), null);
-        System.out.println("[Client]: " + res);
+    private void onMessage(Message msg) {
+        if(sender().equals(server)){
+            System.out.println("Client received: "+msg);
+        }else{
+            //E' il main che mi ha inviato questo messaggio, quindi I tell the server
+            server.tell(msg, self());
+        }
+
     }
 
-    private void onPutMessage(SleepMessage msg) {
+    private void onSleepMessage(SleepMessage msg) {
         server.tell(msg, self());
     }
 
-    private void setServer(WakeupMessage msg) {
+    private void onWakeupMessage(WakeupMessage msg) {
+        server.tell(msg, self());
+    }
+
+    private void setServer(ServerReferenceMessage msg) {
         server = msg.server();
     }
 

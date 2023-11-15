@@ -1,10 +1,10 @@
 package com.lab4;
 
-import akka.actor.AbstractActor;
+import akka.actor.AbstractActorWithStash;
 import akka.actor.Props;
 
 // Only Akka actor we have in this example
-public class ServerActor extends AbstractActor {
+public class ServerActor extends AbstractActorWithStash {
 
     public ServerActor() {
     }
@@ -12,40 +12,40 @@ public class ServerActor extends AbstractActor {
     // Specifies a single match clause that looks at messages
     @Override
     public Receive createReceive() {
-        return createWakeupReceive();
+        return createAwakeReceive();
     }
 
     private Receive createAwakeReceive() {
         return receiveBuilder() // Whenever a message of the SimpleMessage class is received, call onMessage
                 .match(SleepMessage.class, this::onSleepMessage)
-                .match(Message.class, this::onMessage)
+                .match(Message.class, this::onMessageStatusWake)
                 .build();
     }
 
     private Receive createSleepingReceive() {
         return receiveBuilder() // Whenever a message of the SimpleMessage class is received, call onMessage
-                .match(WakeupMessage.class, this::on)
-                .match(Message.class, this::onMessage)
+                .match(WakeupMessage.class, this::onWakeupMessage)
+                .match(Message.class, this::onMessageStatusSleep)
                 .build();
     }
 
     private void onSleepMessage(SleepMessage p) {
         getContext().become(createSleepingReceive());
-        System.out.println("Mi addormento");
+        System.out.println("I sleep");
     }
 
-
-
-
-    private void onSleepMessage(SleepMessage p) {
-        getContext().become(createSleepingReceive());
-        System.out.println("Mi addormento");
+    private void onWakeupMessage(WakeupMessage p) {
+        getContext().become(createAwakeReceive());
+        System.out.println("I wake up");
+        unstashAll();
     }
 
-    private void onMessage(Message p) {
-        String email = contacts.get(p.name());
-        getSender().tell(email, self());
-        System.out.println("Sent " + email);
+    private void onMessageStatusWake(Message p) {
+        sender().tell(p,self());
+    }
+
+    private void onMessageStatusSleep(Message p) {
+        stash();
     }
 
     // Used by the props static class to create the actor

@@ -1,0 +1,265 @@
+[
+    {
+        "id": "0f878789f06582b5",
+        "type": "tab",
+        "label": "Es 8.1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e915fa6cf105b6e3",
+        "type": "tab",
+        "label": "Es 8.2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e145681d1fc7e143",
+        "type": "chatbot-telegram-node",
+        "botname": "NodeRED group 25",
+        "usernames": "",
+        "polling": "1000",
+        "store": "",
+        "log": "",
+        "debug": false,
+        "skipMediaFiles": false,
+        "webHook": "",
+        "connectMode": "polling",
+        "storeMessages": true,
+        "enableMissionControl": false,
+        "inspectMessages": true,
+        "chatbotId": ""
+    },
+    {
+        "id": "e807c082b0b6d000",
+        "type": "chatbot-telegram-receive",
+        "z": "0f878789f06582b5",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "ae42b865aecb52b5"
+            ]
+        ]
+    },
+    {
+        "id": "479846ca84a0d730",
+        "type": "chatbot-telegram-send",
+        "z": "0f878789f06582b5",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "track": false,
+        "passThrough": false,
+        "errorOutput": false,
+        "outputs": 0,
+        "x": 530,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ae42b865aecb52b5",
+        "type": "function",
+        "z": "0f878789f06582b5",
+        "name": "Compute Answer",
+        "func": "\ndelete msg.ts;\ndelete msg.transport;\nmsg.payload.inbound = false;\nmsg.payload.fallback = null;\n\n\nlet message = {\n    ...msg,\n    location: {\n        country: \"IT\"\n    }\n};\n\nif (msg.payload.content == \"What is the temperature in Milan?\") {\n    message.location.city = \"Milan\";\n    return [message, null];\n} else if (msg.payload.content == \"What is the temperature in Rome?\") {\n    message.location.city = \"Rome\";\n    return [message, null];\n}\nmessage.payload.content = \"Command not recognized\";\nreturn [null, message];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "a493b008d2c50cbd"
+            ],
+            [
+                "479846ca84a0d730"
+            ]
+        ]
+    },
+    {
+        "id": "a493b008d2c50cbd",
+        "type": "openweathermap",
+        "z": "0f878789f06582b5",
+        "name": "",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "",
+        "country": "",
+        "language": "en",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "97a196f3db8f85b4"
+            ]
+        ]
+    },
+    {
+        "id": "97a196f3db8f85b4",
+        "type": "function",
+        "z": "0f878789f06582b5",
+        "name": "function 9",
+        "func": "msg.payload = \"The current temperature in Milan is \" + msg.payload.tempc + \"C\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "b8970db5e4ac761c"
+            ]
+        ]
+    },
+    {
+        "id": "b8970db5e4ac761c",
+        "type": "chatbot-message",
+        "z": "0f878789f06582b5",
+        "name": "",
+        "message": [],
+        "language": "none",
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "479846ca84a0d730"
+            ]
+        ]
+    },
+    {
+        "id": "a778bff31e78d9d7",
+        "type": "chatbot-telegram-receive",
+        "z": "e915fa6cf105b6e3",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "58b0ffb02360bd63"
+            ]
+        ]
+    },
+    {
+        "id": "2765bde317b8cbe2",
+        "type": "chatbot-telegram-send",
+        "z": "e915fa6cf105b6e3",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "track": false,
+        "passThrough": false,
+        "errorOutput": false,
+        "outputs": 0,
+        "x": 930,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "58b0ffb02360bd63",
+        "type": "function",
+        "z": "e915fa6cf105b6e3",
+        "name": "Compute Answer",
+        "func": "\ndelete msg.ts;\ndelete msg.transport;\nmsg.payload.inbound = false;\nmsg.payload.fallback = null;\n\n\nlet message = {\n    ...msg,\n    location: {\n        country: \"IT\"\n    }\n};\n\nif (msg.payload.content == \"What is the temperature in Milan?\") {\n    message.location.city = \"Milan\";\n    return [message, null, null];\n} else if (msg.payload.content == \"What is the temperature in Rome?\") {\n    message.location.city = \"Rome\";\n    return [message, null, null];\n} else if (msg.payload.content.startsWith(\"My name is \")) {\n    let name = msg.payload.content.substring(11);\n    if (name[name.length - 1] == '!')\n        name = name.slice(0, -1);\n    message.payload.content = \"Hi, \" + name + \"!\";\n\n    const user = {\n        ...msg,\n        payload: name\n    };\n    return [null, message, user];\n}\nelse {\n    message.payload.content = \"Command not recognized\";\n    return [null, message, null];\n}",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "6eaca7a64a16e77e"
+            ],
+            [
+                "2765bde317b8cbe2"
+            ],
+            [
+                "2e8038af240b6ea5"
+            ]
+        ]
+    },
+    {
+        "id": "6eaca7a64a16e77e",
+        "type": "openweathermap",
+        "z": "e915fa6cf105b6e3",
+        "name": "",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "",
+        "country": "",
+        "language": "en",
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "726f7c44b3f990df"
+            ]
+        ]
+    },
+    {
+        "id": "726f7c44b3f990df",
+        "type": "function",
+        "z": "e915fa6cf105b6e3",
+        "name": "function 10",
+        "func": "msg.payload = \"The current temperature in Milan is \" + msg.payload.tempc + \"C\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 220,
+        "wires": [
+            [
+                "d2570706194f761a"
+            ]
+        ]
+    },
+    {
+        "id": "d2570706194f761a",
+        "type": "chatbot-message",
+        "z": "e915fa6cf105b6e3",
+        "name": "",
+        "message": [],
+        "language": "none",
+        "x": 870,
+        "y": 220,
+        "wires": [
+            [
+                "2765bde317b8cbe2"
+            ]
+        ]
+    },
+    {
+        "id": "2e8038af240b6ea5",
+        "type": "file",
+        "z": "e915fa6cf105b6e3",
+        "name": "",
+        "filename": "/tmp/users",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 490,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    }
+]

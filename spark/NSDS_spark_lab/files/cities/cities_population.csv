@@ -1,0 +1,3374 @@
+id;city;population
+1;Abano Terme;20101
+2;Abbadia Lariana;3216
+3;Abbadia San Salvatore;6325
+4;Abbasanta;2689
+5;Abbiategrasso;32737
+6;Acate;11325
+7;Acerno;2715
+8;Acerra;59910
+9;Aci Bonaccorsi;3529
+10;Aci Castello;18577
+11;Aci Catena;29418
+12;Aci Sant’Antonio;18076
+13;Acireale;52269
+14;Acqualagna;4412
+15;Acquanegra sul Chiese;2895
+16;Acquapendente;5439
+17;Acquarica del Capo;4653
+18;Acquasanta Terme;2785
+19;Acquasparta;4676
+20;Acquaviva delle Fonti;20600
+21;Acque Dolci;5663
+22;Acqui Terme;19651
+23;Acri;20442
+24;Adelfia;16963
+25;Adrano;35633
+26;Adria;19436
+27;Adro;7168
+28;Afragola;64817
+29;Africo;3008
+30;Agerola;7695
+31;Agira;8222
+32;Agliè;2621
+33;Agliana;17789
+34;Agna;3277
+35;Agnadello;3866
+36;Agnone;5008
+37;Agordo;4089
+38;Agrate Brianza;15540
+39;Agrigento;59329
+40;Agropoli;21874
+41;Agugliano;4799
+42;Aidone;4805
+43;Aiello del Sabato;4010
+44;Airasca;3598
+45;Airola;8390
+46;Airuno;2848
+47;Ala;8887
+48;Alanno;3466
+49;Alassio;10791
+50;Alatri;28763
+51;Alba;31498
+52;Albanella;6394
+53;Albano Laziale;41314
+54;Albano Sant’Alessandro;8244
+55;Albaredo d’Adige;5190
+56;Albenga;24042
+57;Alberobello;10725
+58;Albiate;6352
+59;Albignasego;26071
+60;Albinea;8830
+61;Albino;17903
+62;Albisola Marina;5387
+63;Albizzate;5299
+64;Albuzzano;3566
+65;Alcamo;45273
+66;Aldeno;3133
+67;Alessandria;93980
+68;Alessandria della Rocca;2867
+69;Alessano;6371
+70;Alezio;5732
+71;Alfonsine;11953
+72;Alghero;43964
+73;Alia;3528
+74;Alice Castello;2652
+75;Alliste;6702
+76;Allumiere;4059
+77;Almè;5604
+78;Almenno San Bartolomeo;6247
+79;Almenno San Salvatore;5677
+80;Almese;6426
+81;Alpignano;16811
+82;Alseno;4695
+83;Altamura;70514
+84;Altavilla Irpina;4158
+85;Altavilla Milicia;8340
+86;Altavilla Silentina;7083
+87;Altavilla Vicentina;12013
+88;Altidona;3452
+89;Altofonte;10218
+90;Altomonte;4382
+91;Altopascio;15572
+92;Alvignano;4742
+93;Alvito;2650
+94;Alzano Lombardo;13637
+95;Amalfi;5102
+96;Amandola;3569
+97;Amantea;13975
+98;Amaseno;4313
+99;Amatrice;2500
+100;Ameglia;4366
+101;Amelia;11828
+102;Amendolara;2902
+103;Amorosi;2749
+104;Anacapri;6962
+105;Anagni;21404
+106;Ancona;100924
+107;Andorno Micca;3218
+108;Andrano;4750
+109;Andria;99857
+110;Angera;5546
+111;Anghiari;5536
+112;Angri;34126
+113;Anguillara Sabazia;19426
+114;Anguillara Veneta;4325
+115;Annone Veneto;3932
+116;Antegnate;3206
+117;Antrodoco;2498
+118;Anzio;52381
+119;Anzola dell’Emilia;12310
+120;Aosta;34082
+121;Apice;5578
+122;Apollosa;2667
+123;Appiano Gentile;7750
+124;Appignano;4195
+125;Apricena;13174
+126;Aquaviva Picena;3799
+127;Aquiléia;3306
+128;Aquino;5319
+129;Aradeo;9381
+130;Aragona;9409
+131;Arborea;3906
+132;Arcade;4550
+133;Arce;5670
+134;Arcene;4868
+135;Arcevia;4325
+136;Arcidosso;4315
+137;Arco;17716
+138;Arcole;6246
+139;Arconate;6645
+140;Arcore;17916
+141;Arcugnano;7853
+142;Ardea;49663
+143;Ardenno;3270
+144;Ardesio;3485
+145;Ardore;5114
+146;Arenzano;11478
+147;Arese;19347
+148;Arezzo;99419
+149;Argelato;9865
+150;Argenta;21521
+151;Ariano Irpino;22448
+152;Ariano nel Polesine;4241
+153;Ariccia;18851
+154;Arienzo;5374
+155;Arluno;12000
+156;Arnesano;4053
+157;Arona;13966
+158;Arosio;5019
+159;Arpino;7150
+160;Arquata Scrivia;6397
+161;Arrone;2743
+162;Arsago Seprio;4904
+163;Arsiero;3147
+164;Artegna;2871
+165;Artena;14107
+166;Artogne;3632
+167;Arzachena;13756
+168;Arzano;34217
+169;Arzergrande;4834
+170;Arzignano;25605
+171;Ascea;5855
+172;Asciano;7076
+173;Ascoli Piceno;48773
+174;Ascoli Satriano;6167
+175;Asiago;6441
+176;Asola;10069
+177;Asolo;9089
+178;Assèmini;26901
+179;Assisi;28352
+180;Asso;3579
+181;Assoro;5090
+182;Asti;76211
+183;Atessa;10580
+184;Atripalda;10968
+185;Augusta;35854
+186;Aulla;11092
+187;Auronzo di Cadore;3302
+188;Ausonia;2591
+189;Avella;7810
+190;Avellino;53908
+191;Aversa;52794
+192;Avetrana;6604
+193;Avezzano;42276
+194;Aviano;9080
+195;Avigliana;12599
+196;Avigliano;11350
+197;Avigliano;2509
+198;Avio;4091
+199;Avola;31408
+200;Azzano Decimo;15744
+201;Azzate;4714
+202;Bacoli;26412
+203;Badia;3491
+204;Badia Calavena;2623
+205;Badia Polesine;10348
+206;Badolato;2974
+207;Bagheria;55047
+208;Bagnário Arsa;3483
+209;Bagnacavallo;16780
+210;Bagnara Calabra;10120
+211;Bagni di Lucca;5997
+212;Bagno a Ripoli;25483
+213;Bagno di Romagna;5874
+214;Bagnoli di Sopra;3612
+215;Bagnoli Irpino;3139
+216;Bagnolo Cremasco;4877
+217;Bagnolo Mella;12677
+218;Bagnolo Piemonte;5969
+219;Bagnolo San Vito;5938
+220;Bagnoregio;3609
+221;Bagolino;3847
+222;Baiano;4742
+223;Baiso;3265
+224;Balangero;3136
+225;Baldissero Torinese;3659
+226;Balestrate;6446
+227;Ballabio;4052
+228;Balsorano Nuovo;3455
+229;Baone;3080
+230;Baragiano;2615
+231;Baranello;2619
+232;Barano d’Ischia;10001
+233;Baranzate;12003
+234;Barbarano Vicentino;4613
+235;Barberino di Mugello;10924
+236;Barberino di Val d’Elsa;4359
+237;Barcellona-Pozzo di Gotto;41389
+238;Bardolino;7147
+239;Bardonecchia;3159
+240;Bareggio;17304
+241;Barga;9898
+242;Bargagli;2700
+243;Barge;7699
+244;Bari;323370
+245;Bari Sardo;3993
+246;Baricella;7030
+247;Barile;2729
+248;Barlassina;7015
+249;Barletta;94477
+250;Baronissi;17051
+251;Barrafranca;12960
+252;Barzanò;5101
+253;Baschi;2682
+254;Baselga di Pinè;5075
+255;Basiliano;5345
+256;Bassano del Grappa;43481
+257;Bassano Romano;4854
+258;Bastiglia;4234
+259;Battaglia Terme;3838
+260;Battipaglia;51005
+261;Baunei;3602
+262;Baveno;4883
+263;Bedonia;3355
+264;Beinasco;17856
+265;Beinette;3460
+266;Belfiore;3153
+267;Belgioioso;6201
+268;Bella;5014
+269;Bellagio;3747
+270;Bellano;3203
+271;Bellante;6997
+272;Bellegra;2841
+273;Bellinzago Novarese;9646
+274;Bellona;6106
+275;Belluno;35710
+276;Belmonte Mezzagno;11239
+277;Belpasso;28126
+278;Belvedere Marittimo;9239
+279;Bene Vagienna;3642
+280;Benestare;2562
+281;Benevento;61791
+282;Bentivoglio;5513
+283;Berbenno di Valtellina;4151
+284;Berchidda;2749
+285;Bereguardo;2698
+286;Bergamo;120923
+287;Bergantino;2523
+288;Berlingo;2749
+289;Bernalda;12453
+290;Bernate Ticino;3054
+291;Berra;4709
+292;Bertinoro;10947
+293;Berzo Inferiore;2480
+294;Besana in Brianza;15573
+295;Besano;2583
+296;Besenello;2663
+297;Besnate;5558
+298;Besozzo;9005
+299;Bettola;2759
+300;Bettona;4357
+301;Bevagna;5013
+302;Biancavilla;23948
+303;Bianco;4274
+304;Biandronno;3325
+305;Biassono;12164
+306;Bibbiano;10241
+307;Bibbiena;12177
+308;Bibbona;3224
+309;Biccari;2760
+310;Biella;44324
+311;Bienno;3792
+312;Bientina;8377
+313;Binasco;7257
+314;Bisaccia;3815
+315;Bisacquino;4477
+316;Bisceglie;55385
+317;Bisignano;10128
+318;Bitetto;12006
+319;Bitonto;55127
+320;Bitritto;11277
+321;Bitti;2809
+322;Bivona;3596
+323;Blera;3289
+324;Bobbio;3589
+325;Boffalora sopra Ticino;4127
+326;Bogliasco;4462
+327;Boiano;8178
+328;Bolano;7836
+329;Bollate;36486
+330;Bologna;389261
+331;Bolognetta;4161
+332;Bolotana;2579
+333;Bolsena;3941
+334;Bolzano;107317
+335;Bolzano Vicentino;6480
+336;Bomporto;10170
+337;Bonate di Sopra;10020
+338;Bondeno;14217
+339;Bonifati;2788
+340;Bonorva;3386
+341;Bordighera;10412
+342;Boretto;5345
+343;Borgaro Torinese;11931
+344;Borgetto;7374
+345;Borghetto Lodigiano;4302
+346;Borghetto Santo Spirito;4802
+347;Borghi;2857
+348;Borgo;6949
+349;Borgo a Mozzano;6994
+350;Borgo San Dalmazzo;12492
+351;Borgo San Giacomo;5455
+352;Borgo San Lorenzo;18419
+353;Borgo Ticino;5089
+354;Borgo Tossignano;3240
+355;Borgo Val di Taro;6907
+356;Borgofranco d’Ivrea;3596
+357;Borgomanero;21719
+358;Borgonovo Val Tidone;7952
+359;Borgoricco;8774
+360;Borgorose;4486
+361;Borgosatollo;9271
+362;Borgosesia;12676
+363;Bormio;4194
+364;Bornasco;2710
+365;Borso del Grappa;5955
+366;Bosa;7927
+367;Bosco Chiesanuova;3568
+368;Bosconero;3107
+369;Boscoreale;27927
+370;Boscotrecase;10247
+371;Bosisio Parini;3424
+372;Botricello;5274
+373;Botrugno;2745
+374;Bottanuco;5137
+375;Botticino Sera;10857
+376;Bova Marina;4220
+377;Bovalino Marina;8898
+378;Boves;9788
+379;Bovezzo;7433
+380;Boville Ernica;8525
+381;Bovino;3256
+382;Bovisio Masciago;16929
+383;Bovolenta;3471
+384;Bovolone;16078
+385;Bra;29645
+386;Bracciano;19219
+387;Bracigliano;5524
+388;Brancaleone Superiore;3550
+389;Brandizzo;8822
+390;Brebbia;3239
+391;Breda di Piave;7835
+392;Breganze;8586
+393;Brembate;8551
+394;Brembilla;4109
+395;Brembio;2696
+396;Brendola;6624
+397;Breno;4821
+398;Brentonico;3961
+399;Brescello;5601
+400;Brescia;196745
+401;Bressana Bottarone;3479
+402;Bressanone;22011
+403;Bressanvido;3164
+404;Bresso;26259
+405;Briatico;4427
+406;Bricherasio;4600
+407;Briga Novarese;2865
+408;Brignano Gera d’Adda;6009
+409;Brindisi;87141
+410;Brisighella;7579
+411;Brivio;4620
+412;Brolo;5767
+413;Broni;9411
+414;Bronte;18963
+415;Bronzolo;2798
+416;Brugherio;34868
+417;Brugine;7116
+418;Brugnera;9290
+419;Bruino;8598
+420;Brunico;16580
+421;Brusciano;16371
+422;Bucchianico;5126
+423;Buccino;4889
+424;Bucine;10087
+425;Buddusò;3846
+426;Budoia;2571
+427;Budrio;18440
+428;Buia;6484
+429;Buonabitacolo;2554
+430;Buonconvento;3137
+431;Burcèi;2787
+432;Burgio;2630
+433;Busalla;5545
+434;Busca;10110
+435;Buscate;4750
+436;Busseto;6939
+437;Bussolengo;20142
+438;Bussoleno;5824
+439;Busto Arsizio;83405
+440;Busto Garolfo;13851
+441;Butera;4620
+442;Buti;5644
+443;Buttapietra;7062
+444;Buttigliera Alta;6347
+445;Buttrio;4011
+446;Caccamo;8139
+447;Cadelbosco di Sopra;10691
+448;Cadeo;6083
+449;Cadoneghe;16176
+450;Caerano di San Marco;8000
+451;Caggiano;2676
+452;Cagli;8546
+453;Cagliari;154106
+454;Cagnano Varano;7194
+455;Caiazzo;5489
+456;Cairate;7720
+457;Cairo Montenotte;13145
+458;Caivano;37654
+459;Calangianus;4082
+460;Calascibetta;4403
+461;Calatabiano;5274
+462;Calatafimi;6537
+463;Calci;6418
+464;Calcinaia;12582
+465;Calcinate;5985
+466;Calcinato;12894
+467;Calderara di Reno;13224
+468;Caldogno;11272
+469;Caldonazzo;3736
+470;Calenzano;17914
+471;Calimera;7009
+472;Calitri;4582
+473;Calolziocorte;13877
+474;Caltabellotta;3566
+475;Caltagirone;38295
+476;Caltanissetta;62317
+477;Caltavuturo;3926
+478;Caltignaga;2542
+479;Caltrano;2517
+480;Calusco d’Adda;8378
+481;Caluso;7496
+482;Calvenzano;4240
+483;Calvisano;8543
+484;Calvizzano;12182
+485;Camaiore;32328
+486;Cambiago;6954
+487;Cambiano;6008
+488;Camerano;7218
+489;Camerata Picena;2552
+490;Cameri;10907
+491;Camerino;6956
+492;Camerota;7107
+493;Camisano Vicentino;11248
+494;Cammarata;6197
+495;Camogli;5300
+496;Campagna;17169
+497;Campagna Lupia;7225
+498;Campagnano di Roma;11561
+499;Campagnola Emilia;5639
+500;Campegine;5121
+501;Campi Bisenzio;46696
+502;Campi Salentina;10322
+503;Campiglia Marittima;13018
+504;Campli;7110
+505;Campo Ligure;2885
+506;Campo San Martino;5753
+507;Campobasso;49262
+508;Campobello di Licata;9860
+509;Campobello di Mazara;11769
+510;Campodarsego;14675
+511;Campodipietra;2514
+512;Campodoro;2652
+513;Campofelice di Roccella;7516
+514;Campoformido;7891
+515;Campofranco;2992
+516;Campogalliano;8808
+517;Campolongo Maggiore;10678
+518;Campomarino;8074
+519;Campomorone;6849
+520;Camponogara;13117
+521;Camporeale;3238
+522;Camporosso;5559
+523;Camposampiero;12043
+524;Camposano;5320
+525;Camposanto;3192
+526;Canale;5624
+527;Canale Monterano;4165
+528;Canaro;2694
+529;Cancello;5715
+530;Candela;2784
+531;Candelo;7548
+532;Candiolo;5644
+533;Canegrate;12574
+534;Canelli;10430
+535;Canepina;3025
+536;Caneva;6339
+537;Canicattì;35722
+538;Canicattini Bagni;7032
+539;Canino;5284
+540;Cannara;4337
+541;Canneto sull’Oglio;4388
+542;Cannobio;5190
+543;Canosa di Puglia;29847
+544;Canossa;3762
+545;Canova;6461
+546;Cantù;39932
+547;Cantagallo;3140
+548;Cantalice;2654
+549;Canzo;5081
+550;Caorle;11606
+551;Caorso;4736
+552;Capaci;11549
+553;Capalbio;4078
+554;Capannoli;6359
+555;Capannori;46072
+556;Capena;10799
+557;Capistrello;5154
+558;Capizzi;3100
+559;Capo d’Orlando;13320
+560;Capo di Ponte;2471
+561;Capocasale;4351
+562;Capodrise;10133
+563;Capoliveri;4036
+564;Caposele;3430
+565;Capoterra;23583
+566;Cappella Maggiore;4692
+567;Cappelle sul Tavo;4016
+568;Capranica;6430
+569;Caprarola;5395
+570;Capri;7159
+571;Capri Leone;4438
+572;Capriate San Gervasio;8173
+573;Caprino Bergamasco;3079
+574;Caprino Veronese;8399
+575;Capriolo;9467
+576;Capua;18293
+577;Capurso;15682
+578;Caraglio;6782
+579;Carapelle;6692
+580;Carasco;3738
+581;Carate Brianza;17952
+582;Caravaggio;16261
+583;Caravate;2613
+584;Carbonera;11183
+585;Carbonia;28265
+586;Carcare;5534
+587;Cardito;22601
+588;Cariati;8156
+589;Carignano;9274
+590;Carimate;4530
+591;Carini;38936
+592;Carinola;7248
+593;Carlazzo;3162
+594;Carlentini;17741
+595;Carlino;2784
+596;Carloforte;6173
+597;Carmagnola;28969
+598;Carmiano;12068
+599;Carmignano;14663
+600;Carmignano di Brenta;7576
+601;Carnago;6722
+602;Carnate;7327
+603;Carolei;3375
+604;Caronia;3279
+605;Carosino;7028
+606;Carovigno;17120
+607;Carpaneto Piacentino;7733
+608;Carpenedolo;12957
+609;Carpi;71148
+610;Carpiano;4177
+611;Carpignano Salentino;3753
+612;Carpignano Sesia;2507
+613;Carpineti;4011
+614;Carpineto Romano;4425
+615;Carpino;4101
+616;Carrù;4430
+617;Carrara;62537
+618;Carsoli;5314
+619;Cartoceto;7936
+620;Carugate;15482
+621;Carvico;4659
+622;Casabona;2628
+623;Casal di Principe;21482
+624;Casal Fiumanese;3460
+625;Casal Velino;5322
+626;Casalbordino;6090
+627;Casalbuttano;3892
+628;Casale Corte Cerro;3459
+629;Casale di Scodosia;4847
+630;Casale Monferrato;34010
+631;Casale sul Sile;13032
+632;Casalecchio di Reno;36456
+633;Casaleone;5648
+634;Casalgrande;19234
+635;Casalincontrada;3047
+636;Casalmaggiore;15425
+637;Casalmaiocco;3190
+638;Casalnuovo di Napoli;49250
+639;Casaloldo;2699
+640;Casalpusterlengo;15280
+641;Casalserugo;5360
+642;Casaluce;9893
+643;Casalvieri;2665
+644;Casamarciano;3277
+645;Casamassima;19777
+646;Casandrino;14125
+647;Casapulla;8597
+648;Casarano;20070
+649;Casarsa della Delizia;8404
+650;Casatenovo;13042
+651;Casazza;4004
+652;Cascia;3108
+653;Cascina;45212
+654;Caselette;3030
+655;Casella;3136
+656;Caselle Lurani;2990
+657;Caselle Torinese;13958
+658;Caserta;75561
+659;Casièr;11412
+660;Casina;4492
+661;Casirate d’Adda;4120
+662;Casirile;4083
+663;Casnigo;3221
+664;Casola di Napoli;3845
+665;Casola Valsenio;2601
+666;Casole Bruzio;2562
+667;Casole d’Elsa;3852
+668;Casoli;5585
+669;Casorate Primo;8680
+670;Casorate Sempione;5687
+671;Casorezzo;5454
+672;Casoria;77087
+673;Cassacco;2910
+674;Cassano al Ionio;18270
+675;Cassano d’Adda;19057
+676;Cassano delle Murge;14765
+677;Cassina de’ Pecchi;13849
+678;Cassine;2953
+679;Cassino;36497
+680;Cassolnovo;6976
+681;Castagnaro;3749
+682;Castagneto Carducci;9088
+683;Castagnole Lanze;3770
+684;Castano Primo;11228
+685;Casteggio;6712
+686;Castegnato;8449
+687;Castel Bolognese;9628
+688;Castel d’Ario;4659
+689;Castel del Piano;4810
+690;Castel di Casio;3418
+691;Castel di Iudica;4518
+692;Castel di Sangro;6705
+693;Castel Focognano;3093
+694;Castel Gandolfo;8922
+695;Castel Goffredo;12633
+696;Castel Guelfo di Bologna;4506
+697;Castel Madama;7328
+698;Castel Maggiore;18349
+699;Castel Mella;11010
+700;Castel Ritaldi;3245
+701;Castel San Giorgio;13784
+702;Castel San Giovanni;13756
+703;Castel San Niccolò;2667
+704;Castel San Pietro Terme;20862
+705;Castel Sant’Elia;2626
+706;Castel Viscardo;2876
+707;Castel Volturno;25847
+708;Castelbellino;5009
+709;Castelbuono;8688
+710;Casteldaccia;11655
+711;Castelfidardo;18601
+712;Castelfiorentino;17283
+713;Castelforte;4221
+714;Castelfranco di Sotto;13396
+715;Castelfranco Emilia;32894
+716;Castelfranco Veneto;33435
+717;Castelfrentano;4385
+718;Castelgomberto;6188
+719;Castell’Alfero;2709
+720;Castell’Arquato;4621
+721;Castell’Umberto;3051
+722;Castellabate;9233
+723;Castellalto;7578
+724;Castellammare del Golfo;15209
+725;Castellammare di Stabia;65922
+726;Castellamonte;9946
+727;Castellana Grotte;19582
+728;Castellana Sicula;3287
+729;Castellaneta;17069
+730;Castellanza;14340
+731;Castellarano;15326
+732;Castellazzo Bormida;4520
+733;Castelleone;9472
+734;Castelletto sopra Ticino;9969
+735;Castelli Calepio;10453
+736;Castellina in Chianti;2852
+737;Castelliri;3411
+738;Castello d’Argile;6583
+739;Castello di Godego;7190
+740;Castellucchio;5235
+741;Castelmassa;4102
+742;Castelnovo di Sotto;8459
+743;Castelnovo ne’ Monti;10473
+744;Castelnuovo Berardenga;9086
+745;Castelnuovo Cilento;2819
+746;Castelnuovo di Garfagnana;5936
+747;Castelnuovo di Magra;8346
+748;Castelnuovo di Porto;8564
+749;Castelnuovo di Verona;13137
+750;Castelnuovo Don Bosco;3195
+751;Castelnuovo Rangone;15035
+752;Castelnuovo Scrivia;5193
+753;Castelplanio;3524
+754;Castelraimondo;4510
+755;Castelsardo;5990
+756;Casteltermini;7976
+757;Castelvenere;2652
+758;Castelverde;5685
+759;Castelvetrano;31503
+760;Castelvetro di Modena;11303
+761;Castelvetro Piacentino;5331
+762;Castenaso;15363
+763;Castenedolo;11482
+764;Castiòns di Strada;3767
+765;Castiglion Fiorentino;13228
+766;Castiglione Cosentino;2961
+767;Castiglione d’Adda;4651
+768;Castiglione dei Pepoli;5514
+769;Castiglione del Lago;15479
+770;Castiglione della Pescaia;7289
+771;Castiglione delle Stiviere;23570
+772;Castiglione di Sicilia;3129
+773;Castiglione Olona;7669
+774;Castignano;2737
+775;Castione della Presolana;3419
+776;Castri di Lecce;2904
+777;Castrignano de’ Greci;3919
+778;Castrignano del Capo;5193
+779;Castro dei Volsci;4740
+780;Castrocielo;3978
+781;Castrofilippo;2912
+782;Castrolibero;9809
+783;Castronno;5253
+784;Castronuovo di Sicilia;3019
+785;Castrovillari;22037
+786;Catania;311584
+787;Catanzaro;89718
+788;Catenanuova;4757
+789;Cattolica;17177
+790;Cattolica Eraclea;3665
+791;Caulonia;7110
+792;Cava de’ Tirreni;53130
+793;Cava Manara;6766
+794;Cavaglià;3653
+795;Cavaion Veronese;5924
+796;Cavalese;4075
+797;Cavallermaggiore;5455
+798;Cavallino;12808
+799;Cavaria;5834
+800;Cavarzere;13791
+801;Cave;11381
+802;Cavenago di Brianza;7350
+803;Cavezzo;7031
+804;Cavour;5492
+805;Cavriago;9917
+806;Cavriana;3828
+807;Cavriglia;9543
+808;Cazzago San Martino;10933
+809;Ceccano;23380
+810;Cecina;28112
+811;Cefalù;14298
+812;Ceggia;6123
+813;Ceglie Messapico;19833
+814;Celano;10885
+815;Celico;2824
+816;Cellamare;5792
+817;Celle Ligure;5184
+818;Cellino Attanasio;2493
+819;Cellino San Marco;6530
+820;Cellole;7937
+821;Cene;4267
+822;Cengio;3453
+823;Centallo;7002
+824;Cento;35547
+825;Centola;5153
+826;Centuripe;5373
+827;Cepagatti;11014
+828;Ceppaloni;3370
+829;Ceprano;8823
+830;Cerano;6813
+831;Cercemaggiore;3723
+832;Cercola;18007
+833;Cerda;5176
+834;Cerea;16517
+835;Ceregnano;3552
+836;Ceresara;2609
+837;Cerese;11141
+838;Ceriale;5571
+839;Ceriano Laghetto;6526
+840;Cerignola;58540
+841;Cerisano;3128
+842;Cermenate;9187
+843;Cernobbio;6718
+844;Cernusco sul Naviglio;34341
+845;Cerreto d’Esi;3700
+846;Cerreto Guidi;11010
+847;Cerreto Sannita;3852
+848;Cerrione;2894
+849;Cerro Maggiore;15211
+850;Certaldo;16023
+851;Certosa di Pavia;5435
+852;Cervaro;8093
+853;Cerveteri;37977
+854;Cervia;28700
+855;Cervignano del Friuli;13881
+856;Cesa;9039
+857;Cesano Maderno;38637
+858;Cesena;96760
+859;Cesenatico;25959
+860;Cesiomaggiore;3991
+861;Cessalto;3854
+862;Cessaniti;3232
+863;Cetona;2678
+864;Cetraro;10048
+865;Ceva;5774
+866;Châtillon;4654
+867;Cherasco;9224
+868;Chiampo;12879
+869;Chianciano Terme;7050
+870;Chiaramonte Gulfi;8126
+871;Chiarano;3723
+872;Chiaravalle;14733
+873;Chiaravalle Centrale;5536
+874;Chiari;18944
+875;Chiavari;27410
+876;Chiavenna;7313
+877;Chienes;2838
+878;Chieri;36958
+879;Chiesa in Valmalenco;2482
+880;Chiesina Uzzanese;4558
+881;Chieti;50770
+882;Chioggia;49430
+883;Chions;5180
+884;Chiuppano;2532
+885;Chiuro;2552
+886;Chiusa;5235
+887;Chiusa di Pesio;3653
+888;Chiusa Sclafani;2763
+889;Chiusi;8558
+890;Chivasso;26730
+891;Ciampino;38645
+892;Cianciana;3401
+893;Cicagna;2470
+894;Cicciano;12897
+895;Cigliano;4493
+896;Cilavegna;5548
+897;Cimadolmo;3420
+898;Ciminna;3697
+899;Cimitile;7167
+900;Cingoli;10119
+901;Cinigiano;2536
+902;Cinisello Balsamo;75723
+903;Cinisi;12250
+904;Cinquefrondi;6480
+905;Cinto Caomaggiore;3238
+906;Cirò Marina;14794
+907;Ciriè;18639
+908;Cisano Bergamasco;6377
+909;Ciserano;5696
+910;Cislago;10394
+911;Cisliano;4868
+912;Cison di Valmarino;2632
+913;Cisterna di Latina;36980
+914;Cisternino;11553
+915;Citerna;3463
+916;Città della Pieve;7686
+917;Città di Castello;39632
+918;Città Sant’Angelo;15034
+919;Cittadella;20145
+920;Cittaducale;6719
+921;Cittanova;10284
+922;Cittiglio;3874
+923;Civezzano;4025
+924;Cividale del Friuli;11176
+925;Cividate al Piano;5185
+926;Cividate Camuno;2773
+927;Civita Castellana;16262
+928;Civitanova Marche;42353
+929;Civitavecchia;51595
+930;Civitella del Tronto;4918
+931;Civitella di Romagna;3758
+932;Civitella in Val di Chiana;9035
+933;Civitella Marittima;3181
+934;Civitella Roveto;3166
+935;Cles;7009
+936;Clusone;8608
+937;Coazze;3203
+938;Coccaglio;8664
+939;Cocquio Trevisago;4755
+940;Codevigo;6463
+941;Codigoro;11740
+942;Codognè;5339
+943;Codogno;15901
+944;Codroipo;16165
+945;Cogoleto;9123
+946;Cogollo del Cengio;3255
+947;Cogorno;5731
+948;Colico;7853
+949;Collazzone;3448
+950;Colle di Val d’Elsa;21651
+951;Colle Salvetti;16693
+952;Colle Umberto;5093
+953;Collecchio;14634
+954;Collecorvino;6060
+955;Colleferro;21394
+956;Collegno;49597
+957;Collepasso;5979
+958;Collesano;4020
+959;Colli del Tronto;3696
+960;Colliano;3590
+961;Cologna Veneta;8468
+962;Cologne;7534
+963;Cologno al Serio;11180
+964;Cologno Monzese;47720
+965;Colonnella;3744
+966;Colorno;9056
+967;Comacchio;22188
+968;Comerio;2904
+969;Comiso;29845
+970;Como;83320
+971;Comun Nuovo;4389
+972;Comunanza;3081
+973;Concordia Sagittaria;10373
+974;Concordia sulla Secchia;8440
+975;Concorezzo;15644
+976;Condofuri;5053
+977;Condove;4614
+978;Conegliano;35082
+979;Conselice;9779
+980;Conselve;10224
+981;Contigliano;3884
+982;Contrada;3063
+983;Contursi;3332
+984;Conversano;26171
+985;Copertino;24094
+986;Copparo;16294
+987;Corato;48262
+988;Corbara;2520
+989;Corbetta;18302
+990;Corchiano;3793
+991;Corciano;21427
+992;Cordenons;18210
+993;Cordignano;7024
+994;Cordovado;2736
+995;Coreglia Antelminelli;5220
+996;Cori;10893
+997;Coriano;10522
+998;Corigliano Calabro;40478
+999;Corigliano d’Otranto;5768
+1000;Corinaldo;4889
+1001;Corio;3250
+1002;Corleone;11128
+1003;Corleto Perticara;2521
+1004;Cormòns;7347
+1005;Cormano;20019
+1006;Cornaredo;20534
+1007;Cornate d’Adda;10715
+1008;Cornedo Vicentino;11982
+1009;Corno di Rosazzo;3170
+1010;Cornuda;6267
+1011;Correggio;25664
+1012;Correzzola;5194
+1013;Corridonia;15362
+1014;Corropoli;5054
+1015;Corsano;5432
+1016;Corsico;34727
+1017;Corte Franca;7201
+1018;Cortemaggiore;4679
+1019;Cortina d’Ampezzo;5842
+1020;Cortona;22057
+1021;Cosenza;67239
+1022;Cossato;14633
+1023;Costa di Mezzate;3374
+1024;Costa di Rovigo;2556
+1025;Costa Volpino;9151
+1026;Costabissara;7658
+1027;Costigliole d’Asti;5822
+1028;Costigliole Saluzzo;3343
+1029;Cotignola;7479
+1030;Cotronei;5465
+1031;Courmayeur;2779
+1032;Covo;4088
+1033;Creazzo;11373
+1034;Crecchio;2842
+1035;Crema;34264
+1036;Cremona;72077
+1037;Crescentino;7814
+1038;Crespano del Grappa;4511
+1039;Crevalcore;13501
+1040;Crevola d’Ossola;4600
+1041;Crispiano;13693
+1042;Crocetta del Montello;6106
+1043;Cropani;4822
+1044;Crosia;9863
+1045;Crotone;63941
+1046;Crucoli;3034
+1047;Cuggiono;8290
+1048;Cuglieri;2649
+1049;Cumiana;7873
+1050;Cuneo;56281
+1051;Cuorgnè;9728
+1052;Cupello;4832
+1053;Cupra Marittima;5358
+1054;Cupramontana;4616
+1055;Curinga;6719
+1056;Curno;7574
+1057;Cursi;4121
+1058;Curtarolo;7317
+1059;Cusano Milanino;18797
+1060;Cusano Mutri;4028
+1061;Custonaci;5571
+1062;Cutro;10462
+1063;Cutrofiano;8958
+1064;Dairago;6420
+1065;Dalmine;23495
+1066;Davoli;5531
+1067;Decimomannu;8234
+1068;Decimoputzu;4356
+1069;Decollatura;3163
+1070;Delebio;3255
+1071;Delianuova;3324
+1072;Deliceto;3725
+1073;Dello;5601
+1074;Deruta;9713
+1075;Dervio;2627
+1076;Desenzano del Garda;28982
+1077;Desio;42079
+1078;Diamante;5295
+1079;Diano d’Alba;3592
+1080;Diano Marina;5867
+1081;Dicomano;5517
+1082;Diso;2962
+1083;Dobbiaco;3346
+1084;Dogliani;4729
+1085;Dolcè;2575
+1086;Dolianova;9696
+1087;Dolo;15022
+1088;Domodossola;18237
+1089;Domusnovas;6145
+1090;Dongo;3380
+1091;Donnaz;2520
+1092;Dorgali;8596
+1093;Dorno;4671
+1094;Dosolo;3414
+1095;Dovera;3841
+1096;Dozza;6588
+1097;Dronero;7058
+1098;Druento;4521
+1099;Dubino;3715
+1100;Dueville;13804
+1101;Dugenta;2929
+1102;Eboli;40058
+1103;Edolo;4564
+1104;Elmas;9546
+1105;Empoli;48626
+1106;Endine Gaiano;3460
+1107;Enna;27243
+1108;Eraclea;12276
+1109;Erchie;8671
+1110;Ercolano;52763
+1111;Erice;27655
+1112;Esine;5249
+1113;Esperia;3802
+1114;Este;16364
+1115;Fabbrico;6609
+1116;Fabriano;30809
+1117;Fabrica di Roma;8256
+1118;Fabro;2828
+1119;Faedis;2871
+1120;Faenza;58797
+1121;Fagagna;6296
+1122;Faggiano;3499
+1123;Fagnano Castello;3839
+1124;Fagnano Olona;12510
+1125;Faicchio;3637
+1126;Falciano Selice;3621
+1127;Falconara Marittima;26063
+1128;Falcone;2773
+1129;Falerna;3929
+1130;Falerone;3330
+1131;Fanano;2946
+1132;Fano;60978
+1133;Fara Gera d’Adda;8017
+1134;Fara in Sabina;13904
+1135;Fara Vicentino;3779
+1136;Farra di Soligo;8798
+1137;Fasano;39683
+1138;Fauglia;3672
+1139;Favara;32299
+1140;Favignana;4351
+1141;Favria;5186
+1142;Felino;8873
+1143;Feltre;20608
+1144;Ferentino;20992
+1145;Fermignano;8482
+1146;Fermo;37238
+1147;Ferno;6850
+1148;Ferrandina;8593
+1149;Ferrara;132278
+1150;Ferrazzano;3316
+1151;Fiano;2679
+1152;Fiano Romano;15688
+1153;Ficarazzi;13080
+1154;Fidenza;26898
+1155;Fiesole;14150
+1156;Fiesso d’Artico;8341
+1157;Fiesso Umbertiano;3979
+1158;Figline Valdarno;12646
+1159;Filiano;2890
+1160;Filottrano;9332
+1161;Finale Emilia;15581
+1162;Finale Ligure;11613
+1163;Fino Mornasco;9865
+1164;Fiorano Modenese;17099
+1165;Fiorenzuola d’Arda;15276
+1166;Firenzuola;4599
+1167;Fisciano;13967
+1168;Fiuggi;10511
+1169;Fiume Veneto;11729
+1170;Fiumefreddo Bruzio;2944
+1171;Fiumefreddo di Sicilia;9505
+1172;Fiumicino;79630
+1173;Fivizzano;7730
+1174;Flero;8879
+1175;Florence;380948
+1176;Floridia;22694
+1177;Flumeri;2944
+1178;Fluminimaggiore;3026
+1179;Foggia;151372
+1180;Foglianise;3289
+1181;Fogliano Redipúglia;3048
+1182;Foiano della Chiana;9470
+1183;Folgaria;3161
+1184;Folignano;9182
+1185;Foligno;56999
+1186;Follina;3814
+1187;Follonica;21308
+1188;Fondi;39779
+1189;Fonni;3892
+1190;Fontana Liri;2906
+1191;Fontanafredda;12521
+1192;Fontanarosa;3109
+1193;Fontanellato;7034
+1194;Fontanelle;5744
+1195;Fontaneto d’Agogna;2651
+1196;Fontaniva;8061
+1197;Fontevivo;5615
+1198;Fonzaso;3186
+1199;Forano;3167
+1200;Forino;5357
+1201;Forio;17840
+1202;Forlì;117863
+1203;Forlimpopoli;13294
+1204;Formello;13070
+1205;Formia;38032
+1206;Formigine;34347
+1207;Formignana;2716
+1208;Forno Canavese;3382
+1209;Fornovo di Taro;6004
+1210;Fornovo San Giovanni;3435
+1211;Forte dei Marmi;7335
+1212;Fosdinovo;4792
+1213;Fossò;7041
+1214;Fossacesia;6358
+1215;Fossalta di Piave;4163
+1216;Fossalta di Portogruaro;6190
+1217;Fossano;24372
+1218;Fossato di Vico;2739
+1219;Fossombrone;9454
+1220;Fragagnano;5232
+1221;Francavilla al Mare;25663
+1222;Francavilla di Sicilia;3854
+1223;Francavilla Fontana;36358
+1224;Francavilla in Sinni;4158
+1225;Francavilla Marittima;2870
+1226;Francofonte;12661
+1227;Francolise;4860
+1228;Frascati;22450
+1229;Fratta Polesine;2615
+1230;Frattamaggiore;31831
+1231;Frattaminore;16131
+1232;Fregona;2970
+1233;Frigento;3663
+1234;Frosinone;46063
+1235;Frosolone;3172
+1236;Fucecchio;23275
+1237;Fumane;4125
+1238;Furci Siculo;3323
+1239;Fuscaldo;8108
+1240;Fusignano;8164
+1241;Gabicce;5713
+1242;Gaeta;20545
+1243;Gaggi;3213
+1244;Gaggiano;9146
+1245;Gaggio Montano;4846
+1246;Gaglianico;3775
+1247;Gagliano Castelferrato;3532
+1248;Gagliano del Capo;5098
+1249;Gaiarine;6070
+1250;Gaiole in Chianti;2758
+1251;Gais;3279
+1252;Galati Mamertino;2516
+1253;Galatina;26887
+1254;Galatone;15544
+1255;Galbiate;8545
+1256;Galeata;2511
+1257;Gallarate;53425
+1258;Gallese;2821
+1259;Galliate;15685
+1260;Gallicano;3733
+1261;Gallicano nel Lazio;6343
+1262;Galliera;5451
+1263;Galliera Veneta;7133
+1264;Gallipoli;20545
+1265;Galzignano;4321
+1266;Gambara;4743
+1267;Gambassi;4860
+1268;Gambettola;10704
+1269;Gambolò;9916
+1270;Gandino;5390
+1271;Garbagnate Milanese;27155
+1272;Garda;4117
+1273;Gardone Riviera;2631
+1274;Gardone Val Trompia;11538
+1275;Garessio;3132
+1276;Gargnano;2865
+1277;Garlasco;9805
+1278;Gassino Torinese;9559
+1279;Gattatico;5744
+1280;Gatteo;8988
+1281;Gattinara;7987
+1282;Gavardo;12197
+1283;Gavirate;9374
+1284;Gavoi;2641
+1285;Gavorrano;8567
+1286;Gazoldo degli Ippoliti;2970
+1287;Gazzaniga;5058
+1288;Gazzo;4294
+1289;Gazzo Veronese;5347
+1290;Gela;74858
+1291;Gemona del Friuli;10869
+1292;Gemonio;2878
+1293;Genazzano;5949
+1294;Genoa;580097
+1295;Genola;2650
+1296;Genzano di Lucania;5688
+1297;Genzano di Roma;23892
+1298;Gerace;2600
+1299;Gessate;8821
+1300;Gesualdo;3446
+1301;Ghedi;18719
+1302;Ghemme;3573
+1303;Ghilarza;4452
+1304;Ghisalba;6170
+1305;Giano dell’Umbria;3893
+1306;Giardini;9337
+1307;Giarratana;2962
+1308;Giarre;27546
+1309;Giaveno;16747
+1310;Giavera del Montello;5200
+1311;Gibellina;4016
+1312;Giffoni Valle Piana;11899
+1313;Gimigliano;3292
+1314;Ginosa;22430
+1315;Gioia del Colle;27644
+1316;Gioia Sannitica;3554
+1317;Gioia Tauro;20076
+1318;Gioiosa Ionica;7059
+1319;Gioiosa Marea;6942
+1320;Giovinazzo;20348
+1321;Girifalco;5827
+1322;Gissi;2706
+1323;Giugliano in Campania;124361
+1324;Giulianova;23875
+1325;Giussago;5186
+1326;Giussano;25945
+1327;Gizzeria;5296
+1328;Godega di Sant’Urbano;6034
+1329;Godiasco;3258
+1330;Goito;10222
+1331;Golasecca;2729
+1332;Gonàrs;4718
+1333;Gonnesa;4965
+1334;Gonnosfanàdiga;6530
+1335;Gonzaga;9103
+1336;Gorgo al Monticano;4142
+1337;Gorgonzola;20529
+1338;Gorizia;34411
+1339;Gorla Maggiore;4984
+1340;Gorle;6557
+1341;Goro;3742
+1342;Gossolengo;5652
+1343;Gottolengo;5184
+1344;Gozzano;5622
+1345;Gradara;4888
+1346;Gradisca d’Isonzo;6452
+1347;Gragnano;28897
+1348;Gragnano Trebbiense;4600
+1349;Grammichele;13267
+1350;Granarolo del l’Emilia;12032
+1351;Grandate;2856
+1352;Grantorto;4591
+1353;Grassano;5077
+1354;Gravedona;2611
+1355;Gravellona Toce;7887
+1356;Gravina in Puglia;43816
+1357;Grazzanise;7041
+1358;Gressan;3378
+1359;Grezzana;10805
+1360;Gricignano d’Aversa;12296
+1361;Grignasco;4506
+1362;Grisignano di Zocco;4293
+1363;Gropello Cairoli;4500
+1364;Grosio;4431
+1365;Grosseto;82036
+1366;Grottaferrata;20460
+1367;Grottaglie;31890
+1368;Grottaminarda;8004
+1369;Grottammare;16166
+1370;Grottazzolina;3333
+1371;Grotte;5600
+1372;Grotte di Castro;2652
+1373;Grotteria;3106
+1374;Gruaro;2792
+1375;Grugliasco;37592
+1376;Grumello del Monte;7427
+1377;Grumo Appula;12710
+1378;Grumo Nevano;17939
+1379;Grumolo delle Abbadesse;3748
+1380;Guagnano;5681
+1381;Gualdo Cattaneo;5965
+1382;Gualdo Tadino;15018
+1383;Gualtieri;6471
+1384;Guardamiglio;2664
+1385;Guardavalle;4529
+1386;Guardia Sanframondi;4920
+1387;Guardiagrele;8966
+1388;Guarno;2821
+1389;Guasila;2681
+1390;Guastalla;15032
+1391;Gubbio;31736
+1392;Guglionesi;5246
+1393;Guidizzolo;6013
+1394;Guiglia;3910
+1395;Guspini;11725
+1396;Gussago;16681
+1397;Gussola;2692
+1398;Iesi;40210
+1399;Iesolo;26199
+1400;Iglesias;26784
+1401;Illasi;5243
+1402;Imola;69936
+1403;Imperia;42318
+1404;Impruneta;14618
+1405;Induno Olona;10266
+1406;Inverigo;9146
+1407;Inveruno;8605
+1408;Inzago;10949
+1409;Iolanda di Savoia;2838
+1410;Irsina;4909
+1411;Ischia;20118
+1412;Ischitella;4411
+1413;Iseo;9168
+1414;Isernia;21666
+1415;Isola Capo Rizzuto;17832
+1416;Isola del Gran Sasso d’Italia;4684
+1417;Isola del Liri;11482
+1418;Isola della Scala;11545
+1419;Isola delle Femmine;7249
+1420;Isola Vicentina;10242
+1421;Isorella;4077
+1422;Ispica;16307
+1423;Ispra;5276
+1424;Istrana;9197
+1425;Itri;10761
+1426;Ittiri;8541
+1427;Ivrea;23442
+1428;Jerzu;3177
+1429;L’Aquila;69439
+1430;La Loggia;8841
+1431;La Maddalena;11233
+1432;La Morra;2781
+1433;La Spezia;93311
+1434;Labico;6469
+1435;Lacchiarella;8959
+1436;Lacco Ameno;4805
+1437;Laces;5216
+1438;Ladispoli;41604
+1439;Lago;2533
+1440;Lagonegro;5442
+1441;Lagosanto;4844
+1442;Lagundo;5046
+1443;Lainate;25763
+1444;Laion;2675
+1445;Laives;17954
+1446;Lallio;4112
+1447;Lama Mocogno;2708
+1448;Lamon;2813
+1449;Lamporecchio;7493
+1450;Lana;12286
+1451;Lanciano;35002
+1452;Landriano;6377
+1453;Langhirano;10346
+1454;Lanusei;5387
+1455;Lanuvio;13580
+1456;Lanzo Torinese;5011
+1457;Lariano;13448
+1458;Larino;6680
+1459;Lasa;4028
+1460;Lascari;3619
+1461;Lastra a Signa;20308
+1462;Laterina;3486
+1463;Laterza;15171
+1464;Latiano;14403
+1465;Latina;126470
+1466;Latisana;13478
+1467;Latronico;4420
+1468;Lattarico;3959
+1469;Laureana di Borrello;5080
+1470;Lauria Inferiore;12694
+1471;Lauro;3445
+1472;Lavagna;12617
+1473;Lavello;13411
+1474;Laveno-Mombello;8684
+1475;Lavis;8969
+1476;Lazise;6958
+1477;Lecce;95441
+1478;Lecco;48177
+1479;Legnago;25259
+1480;Legnano;60177
+1481;Legnaro;8948
+1482;Leinì;16375
+1483;Lendinara;11694
+1484;Leno;14322
+1485;Lentate sul Seveso;15878
+1486;Lentiai;2959
+1487;Lentini;23526
+1488;Leonforte;13106
+1489;Leporano;8085
+1490;Lequile;8689
+1491;Lercara Friddi;6764
+1492;Lerici;10133
+1493;Lesignano de’ Bagni;5005
+1494;Lesina;6347
+1495;Lessona;2745
+1496;Lestizza;3771
+1497;Letoianni;2831
+1498;Lettomanoppello;2887
+1499;Leverano;14145
+1500;Levico Terme;8000
+1501;Licata;37008
+1502;Licciana Nardi;4918
+1503;Licodia Eubea;3087
+1504;Lignano Sabbiadoro;6948
+1505;Limana;5335
+1506;Limatola;4095
+1507;Limbadi;3606
+1508;Limbiate;35141
+1509;Limena;7925
+1510;Linguaglossa;5337
+1511;Lioni;6153
+1512;Lipari;12819
+1513;Liscate;4090
+1514;Lissone;45535
+1515;Livigno;6550
+1516;Livorno;158371
+1517;Livorno Ferraris;4345
+1518;Lizzanello;11934
+1519;Lizzano;9990
+1520;Loano;11224
+1521;Locate di Triulzi;10216
+1522;Locate Varesino;4311
+1523;Locorotondo;14190
+1524;Locri;12367
+1525;Lodi;45252
+1526;Lodi Vecchio;7570
+1527;Lograto;3815
+1528;Loiano;4288
+1529;Lomagna;5000
+1530;Lomazzo;9929
+1531;Lonate Ceppino;5012
+1532;Lonate Pozzolo;11786
+1533;Longare;5684
+1534;Longarone;5254
+1535;Longiano;7190
+1536;Longobucco;3008
+1537;Lonigo;16466
+1538;Loreggia;7708
+1539;Loreo;3459
+1540;Loreto;12802
+1541;Loreto Aprutino;7369
+1542;Loria;9358
+1543;Loro Ciuffenna;5862
+1544;Lovere;5224
+1545;Lozzo Atestino;3095
+1546;Lucca;89243
+1547;Lucera;33085
+1548;Lucignano;3554
+1549;Luco dei Marsi;6065
+1550;Lugagnano Val d’Arda;3976
+1551;Luino;14454
+1552;Lungro;2504
+1553;Lurago d’Erba;5383
+1554;Lurago Marinone;2585
+1555;Luras;2528
+1556;Lurate Caccivio;9847
+1557;Luserna San Giovanni;7297
+1558;Lusia;3429
+1559;Lusiana;2581
+1560;Luzzara;8962
+1561;Luzzi;9206
+1562;Múggia;13111
+1563;Mògoro;4118
+1564;Macerata;41776
+1565;Macerata Campania;10507
+1566;Macomer;10019
+1567;Maddaloni;39026
+1568;Madignano;2847
+1569;Maenza;3118
+1570;Magenta;23906
+1571;Magione;14815
+1572;Magliano de’ Marsi;3626
+1573;Magliano in Toscana;3538
+1574;Magliano Sabina;3693
+1575;Maglie;14196
+1576;Magnago;9167
+1577;Maiano;5932
+1578;Maiolati Spontini;6187
+1579;Maiori;5570
+1580;Mairano;3469
+1581;Malalbergo;9087
+1582;Malcesine;3685
+1583;Maleo;3133
+1584;Maletto;3818
+1585;Malgrate;4271
+1586;Malles Venosta;5265
+1587;Malnate;16784
+1588;Malo;14855
+1589;Malonno;3183
+1590;Mammola;2732
+1591;Mamoiada;2523
+1592;Manciano;7309
+1593;Mandatoriccio;2765
+1594;Mandello del Lario;10313
+1595;Manduria;31159
+1596;Manerbio;13109
+1597;Manfredonia;56906
+1598;Maniago;11746
+1599;Manocalzati;3198
+1600;Manoppello;6920
+1601;Mansuè;5070
+1602;Manta;3807
+1603;Mantova;49409
+1604;Manziana;7737
+1605;Mapello;6840
+1606;Maracalagonis;7980
+1607;Maranello;17590
+1608;Marano di Napoli;59862
+1609;Marano di Valpolicella;3145
+1610;Marano Marchesato;3492
+1611;Marano Principato;3177
+1612;Marano sul Panaro;5167
+1613;Marano Vicentino;9529
+1614;Maratea;5088
+1615;Marcallo con Casone;6250
+1616;Marcaria;6591
+1617;Marcellina;7325
+1618;Marcheno;4246
+1619;Marcianise;39792
+1620;Marcon;17447
+1621;Marene;3330
+1622;Mareno di Piave;9613
+1623;Margherita di Savoia;11771
+1624;Mariano Comense;24956
+1625;Mariglianella;7924
+1626;Marigliano;29879
+1627;Marina di Gioiosa Ionica;6603
+1628;Marineo;6541
+1629;Marino;44472
+1630;Marlengo;2710
+1631;Marliana;3174
+1632;Marmirolo;7789
+1633;Marnate;7903
+1634;Marone;3178
+1635;Marostica;14039
+1636;Marrùbiu;4819
+1637;Marradi;3062
+1638;Marsala;82802
+1639;Marsciano;18701
+1640;Marsico Nuovo;4014
+1641;Marsico Vetere;5531
+1642;Martano;9087
+1643;Martellago;21502
+1644;Martignacco;6812
+1645;Martina Franca;48786
+1646;Martinengo;10560
+1647;Martinsicuro;15992
+1648;Maruggio;5241
+1649;Marzabotto;6853
+1650;Mascali;14301
+1651;Mascalucia;32167
+1652;Maser;5094
+1653;Maserà di Padova;9127
+1654;Maserada sul Piave;9374
+1655;Maslianico;3327
+1656;Masone;3694
+1657;Massa;69037
+1658;Massa Fiscaglia;3561
+1659;Massa Lombarda;10646
+1660;Massa Marittima;8286
+1661;Massa Martana;3742
+1662;Massafra;32861
+1663;Massalubrense;14294
+1664;Massarosa;22430
+1665;Matelica;9665
+1666;Matera;60403
+1667;Mathi;3894
+1668;Matino;11444
+1669;Mattinata;6261
+1670;Mazara del Vallo;51488
+1671;Mazzè;4123
+1672;Mazzano Romano;3119
+1673;Mazzarino;11842
+1674;Meda;23463
+1675;Mede;6576
+1676;Medesano;10850
+1677;Medicina;16768
+1678;Medole;4055
+1679;Medolla;6253
+1680;Meduna di Livenza;2912
+1681;Meina;2484
+1682;Mel;5968
+1683;Meldola;9978
+1684;Mele;2708
+1685;Melegnano;18127
+1686;Melendugno;9999
+1687;Melfi;17878
+1688;Melicucco;5057
+1689;Melilli;13519
+1690;Melissano;7129
+1691;Melito di Napoli;37943
+1692;Melito di Porto Salvo;11240
+1693;Melzo;18493
+1694;Menaggio;3107
+1695;Mendicino;9503
+1696;Menfi;12471
+1697;Mentana;23126
+1698;Meolo;6345
+1699;Merano;40485
+1700;Merate;14891
+1701;Mercato San Severino;22335
+1702;Mercato Saraceno;6837
+1703;Mercogliano;12369
+1704;Mereto di Tomba;2606
+1705;Merlara;2644
+1706;Mesagne;26836
+1707;Mesola;6778
+1708;Mesoraca;6357
+1709;Messina;234293
+1710;Mestre;89376
+1711;Mestrino;11502
+1712;Meta;7947
+1713;Mezzani;3218
+1714;Mezzocorona;5477
+1715;Mezzojuso;2877
+1716;Mezzolombardo;7156
+1717;Miane;3280
+1718;Miggiano;3528
+1719;Miglianico;4754
+1720;Migliarino;3625
+1721;Mignanego;3607
+1722;Mignano Monte Lungo;3160
+1723;Milan;1366180
+1724;Milazzo;31231
+1725;Mileto;6742
+1726;Militello in Val di Catania;7262
+1727;Millesimo;3326
+1728;Mineo;5088
+1729;Minerbe;4573
+1730;Minerbio;8760
+1731;Minervino di Lecce;3602
+1732;Minervino Murge;8864
+1733;Minturno;19804
+1734;Mira;38573
+1735;Mirabella Eclano;7573
+1736;Mirabella Imbaccari;4764
+1737;Miradolo Terme;3714
+1738;Mirandola;23650
+1739;Mirano;27169
+1740;Misano Adriatico;13400
+1741;Misano di Gera d’Adda;2957
+1742;Misilmeri;29376
+1743;Misinto;5576
+1744;Missaglia;8700
+1745;Misterbianco;49992
+1746;Mistretta;4639
+1747;Modena;185273
+1748;Modica;54530
+1749;Modigliana;4482
+1750;Modugno;38453
+1751;Moena;2639
+1752;Moglia;5487
+1753;Mogliano;4576
+1754;Mogliano Veneto;27852
+1755;Moiano;4099
+1756;Mola di Bari;25393
+1757;Molfetta;59470
+1758;Molinella;15642
+1759;Moliterno;3916
+1760;Molochio;2513
+1761;Molteno;3611
+1762;Momo;2509
+1763;Monasterace;3510
+1764;Monastier di Treviso;4352
+1765;Moncalieri;57234
+1766;Moncalvo;2965
+1767;Mondavio;3725
+1768;Mondolfo;14265
+1769;Mondovì;22444
+1770;Mondragone;28797
+1771;Moneglia;2798
+1772;Monesiglio;16631
+1773;Monforte San Giorgio;2720
+1774;Monghidoro;3689
+1775;Mongrando;3800
+1776;Monopoli;48964
+1777;Monreale;39047
+1778;Monsampolo del Tronto;4547
+1779;Monsano;3375
+1780;Monselice;17572
+1781;Monserrato;19771
+1782;Monsummano;21141
+1783;Montà;4712
+1784;Montagnana;9026
+1785;Montaione;3638
+1786;Montalbano Ionico;7208
+1787;Montalcino;5919
+1788;Montale;10777
+1789;Montallegro;2500
+1790;Montalto di Castro;8978
+1791;Montalto Dora;3430
+1792;Montalto Uffugo;20213
+1793;Montanaro;5262
+1794;Monte Compatri;12134
+1795;Monte di Malo;2838
+1796;Monte di Procida;12743
+1797;Monte Libretti;5326
+1798;Monte Porzio Catone;8718
+1799;Monte Roberto;3088
+1800;Monte San Biagio;6308
+1801;Monte San Giovanni Campano;12706
+1802;Monte San Giusto;7984
+1803;Monte San Pietro;10960
+1804;Monte San Savino;8675
+1805;Monte San Vito;6787
+1806;Monte Sant’Angelo;12342
+1807;Monte Urano;8218
+1808;Montebello Ionico;6179
+1809;Montebello Vicentino;6542
+1810;Montebelluna;31258
+1811;Montecalvo in Foglia;2750
+1812;Montecalvo Irpino;3591
+1813;Montecalvoli;3171
+1814;Montecassiano;7080
+1815;Montecastrilli;5037
+1816;Montecatini Terme;20540
+1817;Montecchia di Crosara;4325
+1818;Montecchio Emilia;10578
+1819;Montecchio Maggiore;23316
+1820;Montechiarugolo;10976
+1821;Montecorice;2681
+1822;Montecorvino Rovella;12682
+1823;Montecosaro;7206
+1824;Montefalcione;3285
+1825;Montefalco;5577
+1826;Montefano;3458
+1827;Montefiascone;13498
+1828;Monteforte d’Alpone;8917
+1829;Monteforte Irpino;11933
+1830;Montegiorgio;6723
+1831;Montegranaro;12876
+1832;Montegrotto Terme;11448
+1833;Monteiasi;5580
+1834;Montelabbate;6915
+1835;Montelepre;6142
+1836;Montelupo Fiorentino;14247
+1837;Montelupone;3575
+1838;Montemaggiore al Metauro;2874
+1839;Montemaggiore Belsito;3247
+1840;Montemarano;2809
+1841;Montemarciano;9872
+1842;Montemesola;3839
+1843;Montemiletto;5288
+1844;Montemurlo;18779
+1845;Montenero di Bisaccia;6612
+1846;Monteodorisio;2474
+1847;Montepaone;5390
+1848;Monteprandone;12678
+1849;Montepulciano;13984
+1850;Montereale Valcellina;4365
+1851;Monterenzio;6110
+1852;Monteriggioni;9937
+1853;Monteroni d’Arbia;9070
+1854;Monteroni di Lecce;13923
+1855;Monterosi;4558
+1856;Monterosso Almo;2953
+1857;Monterotondo;41144
+1858;Montesano Salentino;2687
+1859;Montesano sulla Marcellana;6544
+1860;Montesarchio;13508
+1861;Montescaglioso;9877
+1862;Montese;3325
+1863;Montesilvano;54194
+1864;Montespertoli;13497
+1865;Montevago;2950
+1866;Montevarchi;24440
+1867;Monteviale;2811
+1868;Monticelli d’Ongina;5287
+1869;Monticello Conte Otto;9026
+1870;Montichiari;25714
+1871;Montignoso;10311
+1872;Montodine;2498
+1873;Montopoli in Sabina;4123
+1874;Montopoli in Val d’Arno;11149
+1875;Montorio al Vomano;8013
+1876;Montorso Vicentino;3107
+1877;Monza;123598
+1878;Monzambano;4877
+1879;Monzuno;6375
+1880;Morano Calabro;4413
+1881;Morbegno;12407
+1882;Morciano di Leuca;3247
+1883;Morciano di Romagna;7020
+1884;Morcone;4897
+1885;Mordano;4692
+1886;Moretta;4103
+1887;Morgano;4485
+1888;Mori;9846
+1889;Moriago della Battaglia;2815
+1890;Moricone;2559
+1891;Morlupo;8689
+1892;Mormanno;2955
+1893;Mornago;4976
+1894;Morolo;3250
+1895;Morro d’Oro;3593
+1896;Morrovalle;10056
+1897;Morsano al Tagliamento;2788
+1898;Mortara;15362
+1899;Mortegliano;4969
+1900;Moruzzo;2499
+1901;Mosciano Sant’Angelo;9316
+1902;Moscufo;3168
+1903;Motta di Livenza;10801
+1904;Motta San Giovanni;6086
+1905;Motta Sant’Anastasia;12189
+1906;Motta Visconti;7980
+1907;Mottola;15842
+1908;Mozzanica;4551
+1909;Mozzate;8971
+1910;Mozzecane;7656
+1911;Muggiò;23581
+1912;Mugnano del Cardinale;5270
+1913;Mugnano di Napoli;34996
+1914;Muravera;5273
+1915;Muro Leccese;4929
+1916;Muro Lucano;5344
+1917;Musile di Piave;11461
+1918;Mussomeli;10556
+1919;Muzzana del Turgnano;2499
+1920;Nanto;3091
+1921;Naples;966144
+1922;Narcao;3291
+1923;Nardò;31431
+1924;Narni;19252
+1925;Naro;7580
+1926;Narzole;3490
+1927;Naturno;5805
+1928;Negrar;17093
+1929;Neive;3461
+1930;Nembro;11530
+1931;Nepi;9549
+1932;Nereto;5342
+1933;Nervesa della Battaglia;6675
+1934;Nerviano;17176
+1935;Nettuno;49852
+1936;Neviano;5228
+1937;Neviano degli Arduini;3607
+1938;Nichelino;47721
+1939;Nicolosi;7528
+1940;Nicosia;13588
+1941;Nicotera;6155
+1942;Nimis;2711
+1943;Niscemi;26946
+1944;Nissoria;2987
+1945;Nizza di Sicilia;3671
+1946;Nizza Monferrato;10313
+1947;Noale;16017
+1948;Nocera Inferiore;45784
+1949;Nocera Superiore;24369
+1950;Nocera Terinese;4787
+1951;Nocera Umbra;5711
+1952;Noceto;12919
+1953;Noci;19115
+1954;Nogara;8457
+1955;Nogarole Rocca;3638
+1956;Noicattaro;26325
+1957;Nole;6895
+1958;Noli;2692
+1959;Nonantola;15957
+1960;None;8015
+1961;Norcia;4888
+1962;Norma;4046
+1963;Notaresco;6702
+1964;Noto;24028
+1965;Nova Milanese;23334
+1966;Nova Siri;6810
+1967;Novafeltria;7119
+1968;Novara;104183
+1969;Novate Milanese;20003
+1970;Nove;4966
+1971;Novellara;13721
+1972;Noventa di Piave;6966
+1973;Noventa Vicentina;9015
+1974;Novi di Modena;10107
+1975;Novi Ligure;28210
+1976;Novoli;8024
+1977;Nulvi;2708
+1978;Numana;3763
+1979;Nuoro;36579
+1980;Nuraminis;2524
+1981;Nusco;4153
+1982;Nuvolento;3957
+1983;Occhieppo Inferiore;3965
+1984;Occhieppo Superiore;2728
+1985;Occhiobello;11993
+1986;Oderzo;20466
+1987;Offanengo;6031
+1988;Offida;4962
+1989;Offlaga;4103
+1990;Oggiono;9075
+1991;Olbia;60261
+1992;Oleggio;14135
+1993;Olevano Romano;6664
+1994;Olevano sul Tusciano;6743
+1995;Olgiate Comasco;11633
+1996;Olgiate Olona;12444
+1997;Olginate;7024
+1998;Oliena;7018
+1999;Oliveto Citra;3739
+2000;Olmedo;4172
+2001;Omegna;15285
+2002;Opera;13858
+2003;Oppeano;10017
+2004;Oppido Lucano;3763
+2005;Oppido Mamertina;5290
+2006;Orbassano;23365
+2007;Orbetello;14744
+2008;Ordona;2843
+2009;Orgiano;3042
+2010;Orgosolo;4176
+2011;Origgio;7827
+2012;Oriolo Romano;3819
+2013;Oristano;31671
+2014;Ormelle;4486
+2015;Ornago;5075
+2016;Ornavasso;3432
+2017;Orosei;7049
+2018;Orsago;3877
+2019;Orsara di Puglia;2704
+2020;Orsenigo;2769
+2021;Orsogna;3821
+2022;Orta Nova;17675
+2023;Orte;8795
+2024;Ortona;23111
+2025;Orvieto;20253
+2026;Orzinuovi;12419
+2027;Oschiri;3265
+2028;Osilo;3007
+2029;Osimo;35071
+2030;Osnago;4783
+2031;Osoppo;2865
+2032;Ospedaletti;3292
+2033;Ospedaletto Euganeo;5651
+2034;Ospitaletto;14711
+2035;Ossona;4275
+2036;Ostellato;6030
+2037;Ostiano;2927
+2038;Ostiglia;6741
+2039;Ostra Vetere;3178
+2040;Ostuni;31197
+2041;Otranto;5799
+2042;Ottaviano;23710
+2043;Oulx;3363
+2044;Ovada;11365
+2045;Ozieri;10575
+2046;Pabillonis;2717
+2047;Paceco;11307
+2048;Pachino;22237
+2049;Padenghe sul Garda;4629
+2050;Paderno d’Adda;3855
+2051;Paderno Dugnano;46701
+2052;Paderno Franciacorta;3661
+2053;Padova;210440
+2054;Padula;5377
+2055;Paduli;3881
+2056;Paesana;2724
+2057;Paese;21992
+2058;Paglieta;4308
+2059;Pagnacco;5059
+2060;Palagianello;7834
+2061;Palagiano;16105
+2062;Palagonia;16654
+2063;Palaia;4542
+2064;Palau;4224
+2065;Palazzo San Gervasio;4825
+2066;Palazzolo Acreide;8665
+2067;Palazzolo dello Stella;2893
+2068;Palermo;668405
+2069;Palestrina;21872
+2070;Paliano;8163
+2071;Pallazzolo sull’Oglio;20026
+2072;Palma Campania;18218
+2073;Palma di Montechiaro;22663
+2074;Palmanova;5419
+2075;Palmi;18606
+2076;Palo del Colle;21488
+2077;Palombara Sabina;13200
+2078;Palomonte;3931
+2079;Palosco;5808
+2080;Pandino;9035
+2081;Panicale;5606
+2082;Pantelleria;7759
+2083;Pantigliate;6058
+2084;Paola;15716
+2085;Parabiago;27842
+2086;Parabita;9047
+2087;Paratico;4780
+2088;Parcines;3725
+2089;Parma;195687
+2090;Partanna;10422
+2091;Partinico;31786
+2092;Pasian di Prato;9363
+2093;Pasiano;7736
+2094;Passignano sul Trasimeno;5712
+2095;Passirano;7054
+2096;Pastrengo;3092
+2097;Paterno;47827
+2098;Paterno;3327
+2099;Patrica;3161
+2100;Pattada;3048
+2101;Patti;13266
+2102;Paularo;2556
+2103;Paullo;11429
+2104;Pavia;72773
+2105;Pavia di Udine;5573
+2106;Pavone Canavese;3861
+2107;Pavone del Mella;2760
+2108;Pavullo nel Frignano;17361
+2109;Peccioli;4724
+2110;Pedara;14613
+2111;Pedaso;2817
+2112;Pedavena;4445
+2113;Pederobba;7353
+2114;Pegognaga;7046
+2115;Pelago;7751
+2116;Pellestrina;2545
+2117;Pellezzano;11101
+2118;Pennabilli;2772
+2119;Pergine Valdarno;3128
+2120;Pergine Valsugana;21384
+2121;Pernumia;3852
+2122;Perosa Argentina;3209
+2123;Perugia;165683
+2124;Pesaro;94958
+2125;Pescaglia;3456
+2126;Pescantina;17236
+2127;Pescara;119217
+2128;Peschici;4500
+2129;Peschiera del Garda;10583
+2130;Pescia;19584
+2131;Pescina;4054
+2132;Petacciato;3811
+2133;Petilia Policastro;9073
+2134;Petralia Soprana;3242
+2135;Petralia Sottana;2730
+2136;Petriano;2781
+2137;Petronà;2569
+2138;Petrosino;8181
+2139;Peveragno;5561
+2140;Piacenza;103082
+2141;Piadena;3455
+2142;Pian Camuno;4682
+2143;Piana degli Albanesi;6157
+2144;Piancastagnaio;4181
+2145;Piancogno;4671
+2146;Pianella;8652
+2147;Pianezza;15309
+2148;Pianiga;12363
+2149;Piano di Sorrento;13008
+2150;Pianopoli;2620
+2151;Pianoro;17503
+2152;Piasco;2764
+2153;Piazza Armerina;21775
+2154;Piazzola sul Brenta;11189
+2155;Picerno;5869
+2156;Piedimonte Etneo;3966
+2157;Piedimonte San Germano;6469
+2158;Piegaro;3574
+2159;Pietra Ligure;8481
+2160;Pietra Montecorvino;2671
+2161;Pietragalla;4064
+2162;Pietramelara;4692
+2163;Pietraperzia;6817
+2164;Pietrasanta;23662
+2165;Pietravairano;2965
+2166;Pietrelcina;3094
+2167;Pieve di Cadore;3788
+2168;Pieve di Cento;7068
+2169;Pieve di Soligo;12057
+2170;Pieve Fosciana;2484
+2171;Pieve Ligure;2497
+2172;Pieve Porto Morone;2670
+2173;Pieve Santo Stefano;3117
+2174;Pieve Vergonte;2549
+2175;Piglio;4601
+2176;Pignataro Interamna;2543
+2177;Pignataro Maggiore;5964
+2178;Pignola;6908
+2179;Pimonte;6003
+2180;Pinerolo;35947
+2181;Pineto;14915
+2182;Pino Troinese;8365
+2183;Pinzolo;3045
+2184;Piobesi Torinese;3783
+2185;Pioltello;36920
+2186;Piombino;33855
+2187;Piombino Dese;9539
+2188;Piossasco;18322
+2189;Piove di Sacco;19902
+2190;Piovene Rocchette;8344
+2191;Piraino;3919
+2192;Pisa;90118
+2193;Pisciotta;2628
+2194;Pisogne;7982
+2195;Pisticci;17602
+2196;Pistoia;90195
+2197;Pitigliano;3757
+2198;Pizzighettone;6465
+2199;Pizzo;9329
+2200;Pizzoli;4611
+2201;Platì;3841
+2202;Ploaghe;4520
+2203;Pocenia;2479
+2204;Podenzano;9144
+2205;Pofi;4134
+2206;Poggiardo;5992
+2207;Poggibonsi;29031
+2208;Poggio a Caiano;10048
+2209;Poggio Imperiale;2697
+2210;Poggio Mirteto;6391
+2211;Poggio Moiano;2651
+2212;Poggio Nativo;2558
+2213;Poggio Renatico;9791
+2214;Poggio Rusco;6623
+2215;Poggiomarino;21993
+2216;Pogliano Milanese;8406
+2217;Poiana Maggiore;4348
+2218;Poirino;10576
+2219;Polcenigo;3151
+2220;Polesella;3906
+2221;Policoro;17694
+2222;Polignano a Mare;18022
+2223;Polistena;10373
+2224;Polizzi Generosa;3241
+2225;Polla;5273
+2226;Pollenza;6549
+2227;Pollina;2950
+2228;Polverara;3334
+2229;Polverigi;4565
+2230;Pomarance;5708
+2231;Pomarico;4084
+2232;Pomezia;63641
+2233;Pomigliano d’Arco;39819
+2234;Pompei;25207
+2235;Pompiano;3776
+2236;Poncarale;5229
+2237;Ponsacco;15539
+2238;Pont Canavese;3307
+2239;Pont-Saint-Martin;3592
+2240;Pontassieve;20607
+2241;Ponte;2573
+2242;Ponte Buggianese;8919
+2243;Ponte dell’Olio;4691
+2244;Ponte di Piave;8352
+2245;Ponte Lambro;4303
+2246;Ponte nell’Alpi;8250
+2247;Ponte San Pietro;11502
+2248;Pontecagnano;26242
+2249;Pontecorvo;13125
+2250;Pontecurone;3603
+2251;Pontedera;29168
+2252;Pontelongo;3741
+2253;Pontenure;6499
+2254;Pontevico;7118
+2255;Pontida;3358
+2256;Pontinia;14915
+2257;Pontremoli;7193
+2258;Popoli;4863
+2259;Poppi;6153
+2260;Porcari;8904
+2261;Pordenone;51127
+2262;Porlezza;4972
+2263;Porpetto;2577
+2264;Portici;54577
+2265;Portico di Caserta;7903
+2266;Porto Azzurro;3740
+2267;Porto Ceresio;2940
+2268;Porto Cesareo;6272
+2269;Porto Empedocle;16701
+2270;Porto Ercole;2676
+2271;Porto Recanati;12609
+2272;Porto San Giorgio;16068
+2273;Porto Sant’Elpidio;26408
+2274;Porto Tolle;9663
+2275;Porto Torres;22367
+2276;Portocannone;2490
+2277;Portoferraio;11955
+2278;Portogruaro;24959
+2279;Portomaggiore;11630
+2280;Portoscuso;5104
+2281;Portovenere;3543
+2282;Posada;2974
+2283;Positano;3913
+2284;Potenza;67211
+2285;Potenza Picena;15827
+2286;Povegliano;5243
+2287;Povegliano Veronese;7233
+2288;Poviglio;7285
+2289;Povoletto;5425
+2290;Pozzallo;19466
+2291;Pozzolengo;3558
+2292;Pozzoleone;2780
+2293;Pozzolo Formigaro;4690
+2294;Pozzomaggiore;2577
+2295;Pozzonovo;3571
+2296;Pozzuoli;81141
+2297;Pozzuolo del Friuli;6927
+2298;Pradamano;3617
+2299;Praia a Mare;6717
+2300;Pralboino;2938
+2301;Pramaggiore;4644
+2302;Prata Camportaccio;2950
+2303;Prata di Pordenone;8426
+2304;Prata di Principato Ultra;3040
+2305;Prato;193325
+2306;Pratola Peligna;7528
+2307;Pratola Serra;3866
+2308;Pravisdomini;3500
+2309;Predazzo;4540
+2310;Preganziol;16957
+2311;Premariacco;4071
+2312;Presicce;5285
+2313;Pressana;2535
+2314;Prignano sulla Secchia;3766
+2315;Priolo Gargallo;11883
+2316;Priverno;14365
+2317;Prizzi;4716
+2318;Procida;10465
+2319;Pulsano;11504
+2320;Putignano;26679
+2321;Qualiano;25755
+2322;Quarona;4063
+2323;Quarrata;26460
+2324;Quarto d’Altino;8094
+2325;Quartu Sant’Elena;70879
+2326;Quartucciu;13234
+2327;Quattro Castella;13217
+2328;Quiliano;7137
+2329;Quinto di Treviso;9912
+2330;Quinto Vicentino;5815
+2331;Quinzano d’Oglio;6271
+2332;Quistello;5552
+2333;Racale;11011
+2334;Racalmuto;8155
+2335;Racconigi;9958
+2336;Raddusa;3100
+2337;Raffadali;12650
+2338;Ragogna;2858
+2339;Ragusa;73638
+2340;Raiano;2767
+2341;Ramacca;10866
+2342;Randazzo;10763
+2343;Rapallo;29728
+2344;Rapolano Terme;5305
+2345;Rapolla;4353
+2346;Ravanusa;11471
+2347;Ravarino;6132
+2348;Ravello;2487
+2349;Ravenna;159115
+2350;Realmonte;4540
+2351;Reana del Roiale;4905
+2352;Recale;7710
+2353;Recanati;21186
+2354;Recco;9683
+2355;Recoaro Terme;6306
+2356;Regalbuto;7190
+2357;Reggello;16543
+2358;Reggio di Calabria;181447
+2359;Reggio Emilia;171944
+2360;Reggiolo;9110
+2361;Regia Dogana;2473
+2362;Remanzacco;6104
+2363;Remedello Sopra;3384
+2364;Rende;35727
+2365;Resana;9509
+2366;Rescaldina;14185
+2367;Revello;4252
+2368;Revere;2468
+2369;Rezzato;13576
+2370;Rho;50904
+2371;Ribera;18832
+2372;Ricadi;4939
+2373;Riccò del Golfo di Spezia;3672
+2374;Riccione Marina;35003
+2375;Riesi;11402
+2376;Rieti;47436
+2377;Rignano Flaminio;10328
+2378;Rignano sull’Arno;8718
+2379;Rimini;149403
+2380;Rio di Pusteria;3097
+2381;Rio Saliceto;6136
+2382;Riolo Terme;5681
+2383;Rionero in Vulture;13236
+2384;Ripa Teatina;4050
+2385;Ripalimosani;3102
+2386;Ripalta Cremasca;3388
+2387;Ripatransone;4232
+2388;Ripi;5249
+2389;Riposto;14620
+2390;Riva Ligure;2878
+2391;Riva presso Chieri;4705
+2392;Rivalta di Torino;20185
+2393;Rivanazzano;5326
+2394;Rivara;2606
+2395;Rivarolo Canavese;12539
+2396;Rivarolo Mantovano;2553
+2397;Rive d’Arcano;2467
+2398;Rivello;2731
+2399;Rivergaro;7066
+2400;Rivoli;48629
+2401;Rivolta d’Adda;8140
+2402;Rizziconi;7783
+2403;Ro;3211
+2404;Roana;4276
+2405;Robassomero;3089
+2406;Robbiate;6337
+2407;Robbio;5828
+2408;Robecchetto con Induno;4863
+2409;Robecco sul Naviglio;6723
+2410;Rocca d’Evandro;3178
+2411;Rocca di Neto;5681
+2412;Rocca di Papa;17201
+2413;Rocca Imperiale;3325
+2414;Rocca Priora;12060
+2415;Roccabernarda;3374
+2416;Roccabianca;2970
+2417;Roccadaspide;7116
+2418;Roccafranca;4777
+2419;Roccalumera;4104
+2420;Roccamonfina;3399
+2421;Roccapiemonte;8977
+2422;Roccarainola;6940
+2423;Roccasecca;7481
+2424;Roccastrada;9074
+2425;Roccavione;2648
+2426;Roccella Ionica;6450
+2427;Rodano;4631
+2428;Rodi Garganico;3655
+2429;Rodigo;5272
+2430;Roggiano Gravina;7205
+2431;Rogliano;5758
+2432;Rolo;4062
+2433;Romàns d’Isonzo;3717
+2434;Romagnano Sesia;3889
+2435;Romanengo;3110
+2436;Romano Canavese;2657
+2437;Romano di Lombardia;20486
+2438;Rombiolo;4524
+2439;Rome;2872800
+2440;Romentino;5659
+2441;Roncà;3833
+2442;Roncade;14561
+2443;Roncegno;2906
+2444;Ronchi dei Legionari;11971
+2445;Ronciglione;8537
+2446;Ronco all’Adige;6001
+2447;Ronco Scrivia;4365
+2448;Roncoferraro;6982
+2449;Roncofreddo;3388
+2450;Rosà;14499
+2451;Rosarno;14776
+2452;Rosate;5785
+2453;Rosciano;3949
+2454;Roseto degli Abruzzi;25588
+2455;Rosignano Marittimo;31039
+2456;Rosolina;6456
+2457;Rosolini;21206
+2458;Rossano;36598
+2459;Rossano Veneto;8130
+2460;Rossiglione;2693
+2461;Rotondella;2592
+2462;Rotondi;3654
+2463;Rottofreno;12220
+2464;Rovagnate;2932
+2465;Rovato;19223
+2466;Rovellasca;7797
+2467;Rovello Porro;6122
+2468;Roverbella;8610
+2469;Roveredo in Piano;5939
+2470;Rovereto;39825
+2471;Rovetta;4168
+2472;Rovigo;51149
+2473;Rovito;3166
+2474;Rovolon;4950
+2475;Rozzano;42442
+2476;Rubano;16448
+2477;Rubiera;14833
+2478;Ruda;2900
+2479;Rudiano;5783
+2480;Ruffano;9741
+2481;Rufina;7266
+2482;Ruoti;3542
+2483;Russi;12309
+2484;Rutigliano;18591
+2485;Ruvo di Puglia;25328
+2486;Sìnnai;17562
+2487;Sabaudia;20536
+2488;Sabbio Chiese;3899
+2489;Sabbioneta;4159
+2490;Saccolongo;4945
+2491;Sacile;19905
+2492;Sacrofano;7799
+2493;Saint-Pierre;3213
+2494;Saint-Vincent;4584
+2495;Salò;10603
+2496;Sala Baganza;5622
+2497;Sala Bolognese;8372
+2498;Sala Consilina;12636
+2499;Salandra;2745
+2500;Sale;4081
+2501;Sale Marasino;3370
+2502;Salemi;10647
+2503;Salerno;133970
+2504;Saletto;2810
+2505;Salgareda;6681
+2506;Salice Salentino;8253
+2507;Salizzole;3804
+2508;Salsomaggiore Terme;19710
+2509;Saltara;6966
+2510;Saludecio;3063
+2511;Saluggia;4030
+2512;Saluzzo;16958
+2513;Salzano;12911
+2514;Samarate;16018
+2515;Samassi;5110
+2516;Sambuca di Sicilia;5834
+2517;Sammichele di Bari;6454
+2518;Samughèo;3018
+2519;San Bartolomeo in Galdo;4743
+2520;San Benedetto de’ Marsi;3907
+2521;San Benedetto del Tronto;47351
+2522;San Benedetto Po;7040
+2523;San Benedetto Val di Sambro;4198
+2524;San Benigno Canavese;6044
+2525;San Biagio di Callalta;12996
+2526;San Biagio Platani;3212
+2527;San Bonifacio;21397
+2528;San Calogero;4178
+2529;San Candido;3352
+2530;San Canzian d’lsonzo;6227
+2531;San Casciano in Val di Pesa;17171
+2532;San Cataldo;22557
+2533;San Cesareo;15552
+2534;San Cesario di Lecce;8169
+2535;San Cesario sul Panaro;6460
+2536;San Cipirello;5347
+2537;San Cipriano Picentino;6571
+2538;San Colombano al Lambro;7394
+2539;San Colombano Certenoli;2632
+2540;San Cono;2656
+2541;San Costanzo;4772
+2542;San Damiano d’Asti;8347
+2543;San Daniele del Friuli;7987
+2544;San Demetrio Corone;3442
+2545;San Donà di Piave;41794
+2546;San Donaci;6569
+2547;San Donato di Lecce;5656
+2548;San Donato Milanese;32664
+2549;San Dorligo della Valle;5754
+2550;San Fele;2927
+2551;San Felice Circeo;10054
+2552;San Felice del Benaco;3395
+2553;San Felice sul Panaro;10802
+2554;San Ferdinando;4977
+2555;San Ferdinando di Puglia;13828
+2556;San Fili;2670
+2557;San Filippo della Mela;7006
+2558;San Fior di Sopra;6958
+2559;San Francesco al Campo;4927
+2560;San Fratello;3592
+2561;San Gavino Monreale;8594
+2562;San Gemini;4985
+2563;San Genesio Atesino;3045
+2564;San Genesio ed Uniti;3907
+2565;San Gennaro Vesuviano;11910
+2566;San Gervasio Bresciano;2571
+2567;San Giórgio di Nogaro;7467
+2568;San Gillio;3166
+2569;San Gimignano;7774
+2570;San Ginesio;3376
+2571;San Giorgio a Cremano;45122
+2572;San Giorgio a Liri;3123
+2573;San Giorgio Canavese;2570
+2574;San Giorgio del Sannio;10064
+2575;San Giorgio della Richinvelda;4633
+2576;San Giorgio di Piano;8749
+2577;San Giorgio in Bosco;6346
+2578;San Giorgio Ionico;15101
+2579;San Giorgio la Molara;2952
+2580;San Giorgio Morgeto;3047
+2581;San Giorgio Piacentino;5673
+2582;San Giovanni a Piro;3763
+2583;San Giovanni al Natisone;6137
+2584;San Giovanni Bianco;4798
+2585;San Giovanni Gemini;7947
+2586;San Giovanni Ilarione;5085
+2587;San Giovanni in Fiore;17059
+2588;San Giovanni in Marignano;9455
+2589;San Giovanni in Persiceto;28153
+2590;San Giovanni Incarico;3291
+2591;San Giovanni la Punta;23399
+2592;San Giovanni Lupatoto;25337
+2593;San Giovanni Rotondo;27172
+2594;San Giovanni Suèrgiu;6018
+2595;San Giovanni Valdarno;16812
+2596;San Giuliano Milanese;38314
+2597;San Giuliano Terme;31447
+2598;San Giuseppe Iato;8634
+2599;San Giuseppe Vesuviano;31612
+2600;San Giustino;11213
+2601;San Giusto Canavese;3351
+2602;San Gregorio d’Ippona;2624
+2603;San Gregorio di Catania;11880
+2604;San Gregorio Magno;4221
+2605;San Lazzaro di Savena;32473
+2606;San Leo;2883
+2607;San Leonardo in Passiria;3552
+2608;San Leucio del Sannio;3096
+2609;San Lorenzo;2562
+2610;San Lorenzo del Vallo;3371
+2611;San Lorenzo di Sebato;3889
+2612;San Lorenzo in Campo;3254
+2613;San Luca;3715
+2614;San Lucido;6062
+2615;San Mango Piemonte;2670
+2616;San Marcello Pistoiese;6370
+2617;San Marco Argentano;7380
+2618;San Marco dei Cavoti;3295
+2619;San Marco Evangelista;6577
+2620;San Marco in Lamis;13583
+2621;San Martino Buon Albergo;15482
+2622;San Martino di Lupari;13104
+2623;San Martino di Venezze;3878
+2624;San Martino in Pensilis;4752
+2625;San Martino Siccomario;6278
+2626;San Martino Valle Caudina;4892
+2627;San Marzano di San Giuseppe;9228
+2628;San Marzano sul Sarno;10499
+2629;San Maurizio Canavese;10312
+2630;San Maurizio d’Opaglio;3075
+2631;San Mauro Pascoli;11929
+2632;San Mauro Torinese;19048
+2633;San Michele al Tagliamento;11822
+2634;San Michele all’Adige;3151
+2635;San Michele di Ganzaria;3200
+2636;San Michele di Serino;2490
+2637;San Michele Salentino;6258
+2638;San Miniato;27950
+2639;San Nicolò d’Arcidano;2630
+2640;San Pancrazio Salentino;9882
+2641;San Paolo;4518
+2642;San Paolo Bel Sito;3468
+2643;San Paolo di Civitate;5740
+2644;San Pellegrino Terme;4827
+2645;San Pier Niceto;2770
+2646;San Piero Patti;2823
+2647;San Pietro a Maida;4103
+2648;San Pietro di Feletto;5234
+2649;San Pietro in Casale;12418
+2650;San Pietro in Gù;4435
+2651;San Pietro in Guarano;3646
+2652;San Pietro in Lama;3533
+2653;San Pietro Vernotico;13556
+2654;San Pietro Viminario;3032
+2655;San Polo d’Enza in Caviano;6156
+2656;San Polo dei Cavalieri;2919
+2657;San Polo di Piave;4939
+2658;San Prisco;12333
+2659;San Quirico d’Orcia;2646
+2660;San Quirino;4328
+2661;San Remo;54529
+2662;San Salvatore Monferrato;4247
+2663;San Salvatore Telesino;4075
+2664;San Salvo;20184
+2665;San Sebastiano al Vesuvio;9057
+2666;San Secondo Parmense;5685
+2667;San Severino Marche;12456
+2668;San Severo;53015
+2669;San Sperate;8318
+2670;San Tammaro;5529
+2671;San Valentino Torio;10937
+2672;San Vendemiano;9958
+2673;San Vero Milis;2493
+2674;San Vincenzo;6827
+2675;San Vito;3632
+2676;San Vito al Tagliamento;15063
+2677;San Vito Chietino;5270
+2678;San Vito dei Normanni;19095
+2679;San Vito di Leguzzano;3541
+2680;San Vito lo Capo;4708
+2681;San Vito Romano;3313
+2682;San Vittore del Lazio;2571
+2683;San Zenone;7435
+2684;San Zenone al Lambro;4475
+2685;Sandigliano;2665
+2686;Sandrigo;8457
+2687;Sanfrè;3021
+2688;Sangano;3781
+2689;Sanguinetto;4011
+2690;Sanluri;8464
+2691;Sannazzaro de’ Burgondi;5422
+2692;Sannicandro di Bari;9902
+2693;Sannicandro Garganico;15224
+2694;Sannicola;5864
+2695;Sansepolcro;15876
+2696;Sant’Agata Bolognese;7344
+2697;Sant’Agata de’ Goti;11151
+2698;Sant’Agata di Militello;12393
+2699;Sant’Agata sul Santerno;2918
+2700;Sant’Agnello;9125
+2701;Sant’Agostino;6842
+2702;Sant’Ambrogio di Torino;4721
+2703;Sant’Ambrogio di Valpolicella;11818
+2704;Sant’Anastasia;27690
+2705;Sant’Angelo de’ Lombardi;4207
+2706;Sant’Angelo di Brolo;2983
+2707;Sant’Angelo di Piove di Sacco;7170
+2708;Sant’Angelo in Vado;4073
+2709;Sant’Angelo Lodigiano;13202
+2710;Sant’Angelo Romano;4987
+2711;Sant’Anna Arresi;2739
+2712;Sant’Anna d’Alfaedo;2535
+2713;Sant’Antìoco;11152
+2714;Sant’Antimo;33892
+2715;Sant’Antonio Abate;19704
+2716;Sant’Antonio di Susa;4251
+2717;Sant’Arcangelo;6448
+2718;Sant’Arcangelo di Romagna;22171
+2719;Sant’Arpino;14606
+2720;Sant’Arsenio;2815
+2721;Sant’Egidio alla Vibrata;9753
+2722;Sant’Elena;2500
+2723;Sant’Elia Fiumerapido;6048
+2724;Sant’Elpidio a Mare;17144
+2725;Sant’Eufemia d’Aspromonte;4079
+2726;Sant’Eusanio del Sangro;2471
+2727;Sant’Ilario d’Enza;11263
+2728;Sant’Omero;5317
+2729;Sant’Omobono Imagna;3940
+2730;Sant’Onofrio;3088
+2731;Sant’Oreste;3648
+2732;Santa Caterina Villarmosa;5253
+2733;Santa Cesarea Terme;3017
+2734;Santa Croce Camerina;10955
+2735;Santa Croce di Magliano;4345
+2736;Santa Croce sull’ Arno;14627
+2737;Santa Fiora;2563
+2738;Santa Flavia;11212
+2739;Santa Giusta;4807
+2740;Santa Giustina;6780
+2741;Santa Giustina in Colle;7269
+2742;Santa Lucia del Mela;4584
+2743;Santa Lucia di Piave;9160
+2744;Santa Margherita di Belice;6338
+2745;Santa Margherita Ligure;9124
+2746;Santa Maria a Monte;13061
+2747;Santa Maria a Vico;14004
+2748;Santa Maria Capua Vetere;32893
+2749;Santa Maria di Licodia;7691
+2750;Santa Maria di Sala;17774
+2751;Santa Maria la Fossa;2681
+2752;Santa Maria Nuova;4146
+2753;Santa Marina;3237
+2754;Santa Marinella;18921
+2755;Santa Ninfa;4953
+2756;Santa Sofia;4120
+2757;Santa Sofia d’Epiro;2528
+2758;Santa Teresa di Riva;9403
+2759;Santa Teresa Gallura;5390
+2760;Santa Venerina;8553
+2761;Santa Vittoria d’Alba;2831
+2762;Santadi;3385
+2763;Santeramo in Colle;26592
+2764;Santhià;8496
+2765;Santi Cosma e Damiano;6972
+2766;Santo Stefano Belbo;3913
+2767;Santo Stefano di Cadore;2511
+2768;Santo Stefano di Camastra;4670
+2769;Santo Stefano di Magra;9613
+2770;Santo Stefano Quisquina;4516
+2771;Santo Stefano Ticino;4982
+2772;Santo Stino di Livenza;12855
+2773;Santorso;5711
+2774;Sanza;2565
+2775;Saponara Villafranca;3925
+2776;Sapri;6716
+2777;Saracena;3744
+2778;Sarcedo;5274
+2779;Sardara;4033
+2780;Sarezzo;13337
+2781;Sarmato;2845
+2782;Sarmede;3061
+2783;Sarnano;3220
+2784;Sarnico;6688
+2785;Sarno;31625
+2786;Saronno;39419
+2787;Sarroch;5283
+2788;Sarsina;3412
+2789;Sarteano;4705
+2790;Sarzana;22133
+2791;Sassano;4935
+2792;Sassari;116641
+2793;Sasso Marconi;14903
+2794;Sassocorvaro;3437
+2795;Sassoferrato;7104
+2796;Sassuolo;40826
+2797;Satriano;3476
+2798;Sava;16076
+2799;Saviano;16182
+2800;Savigliano;21526
+2801;Savignano sul Panaro;9142
+2802;Savignano sul Rubicone;17744
+2803;Savona;60632
+2804;Scafa;3656
+2805;Scafati;50686
+2806;Scalea;11022
+2807;Scalenghe;3279
+2808;Scandale;3100
+2809;Scandiano;25758
+2810;Scandicci;50645
+2811;Scandriglia;3139
+2812;Scansano;4381
+2813;Scarlino;3884
+2814;Scerni;3227
+2815;Schiavon;2629
+2816;Schio;39082
+2817;Sciacca;40488
+2818;Sciara;2813
+2819;Scicli;27051
+2820;Scilla;4885
+2821;Scoppito;3805
+2822;Scordia;16919
+2823;Scorrano;6974
+2824;Scorzè;18848
+2825;Scurcola Marsicana;2794
+2826;Sedegliano;3766
+2827;Sedico;10119
+2828;Sedriano;12246
+2829;Segni;9192
+2830;Segrate;35492
+2831;Selargius;28986
+2832;Selva;2621
+2833;Selvazzano Dentro;22903
+2834;Seminara;2714
+2835;Senago;21500
+2836;Senigallia;44616
+2837;Senise;6995
+2838;Sennori;7190
+2839;Senorbì;4855
+2840;Seravezza;12962
+2841;Serdiana;2673
+2842;Seregno;45131
+2843;Sergnano;3554
+2844;Seriate;25358
+2845;Serino;6968
+2846;Serle;3011
+2847;Sermide;6089
+2848;Sermoneta;10077
+2849;Sernaglia della Battaglia;6176
+2850;Serra de’ Conti;3769
+2851;Serra Riccò;7826
+2852;Serra San Bruno;6604
+2853;Serra San Quirico;2744
+2854;Serracapriola;3877
+2855;Serradifalco;5959
+2856;Serramanna;9110
+2857;Serramazzoni;8304
+2858;Serrara Fontana;3139
+2859;Serrastretta;3107
+2860;Serravalle Pistoiese;11689
+2861;Serravalle Scrivia;5993
+2862;Serravalle Sesia;4948
+2863;Serrenti;4808
+2864;Serrone;3048
+2865;Sersale;4556
+2866;Sessa Aurunca;21252
+2867;Sesto al Reghena;6367
+2868;Sesto Calende;11141
+2869;Sesto ed Uniti;3194
+2870;Sesto Fiorentino;49091
+2871;Sesto San Giovanni;81773
+2872;Sestola;2490
+2873;Sestri Levante;18339
+2874;Sestu;20958
+2875;Settimo San Pietro;6760
+2876;Settimo Torinese;47220
+2877;Seveso;23456
+2878;Sezze;24954
+2879;Sgurgola;2651
+2880;Siano;9883
+2881;Sicignano degli Alburni;3411
+2882;Siculiana;4471
+2883;Siderno Marina;18231
+2884;Siena;53901
+2885;Signa;18901
+2886;Silandro;6181
+2887;Silea;10163
+2888;Silvi Paese;15708
+2889;Sinagra;2643
+2890;Sinalunga;12573
+2891;Siniscola;11531
+2892;Siracusa;121171
+2893;Sirignano;2863
+2894;Sirmione;8243
+2895;Sirolo;4078
+2896;Sissa;4201
+2897;Siziano;6074
+2898;Soave;7108
+2899;Sogliano al Rubicone;3230
+2900;Sogliano Cavour;4056
+2901;Solarino;8130
+2902;Solaro;14163
+2903;Solarolo;4460
+2904;Solbiate Arno;4153
+2905;Solbiate Olona;5466
+2906;Solesino;7025
+2907;Soleto;5422
+2908;Solferino;2631
+2909;Soliera;15296
+2910;Solofra;12470
+2911;Solopaca;3778
+2912;Somma Lombardo;17919
+2913;Somma Vesuviana;34981
+2914;Sommacampagna;14802
+2915;Sommariva del Bosco;6321
+2916;Sommariva Perno;2797
+2917;Sommatino;6877
+2918;Sona;17694
+2919;Soncino;7648
+2920;Sondalo;4114
+2921;Sondrio;21642
+2922;Sonnino;7560
+2923;Sora;25972
+2924;Soragna;4840
+2925;Sorano;3322
+2926;Sorbolo;9563
+2927;Soresina;8915
+2928;Sori;4112
+2929;Soriano nel Cimino;8290
+2930;Sorisole;9042
+2931;Sorrento;16405
+2932;Sorso;14826
+2933;Sortino;8561
+2934;Sospiro;3057
+2935;Sospirolo;3116
+2936;Sossano;4296
+2937;Sotto il Monte;4505
+2938;Soverato Marina;9095
+2939;Sovere;5319
+2940;Soveria Mannelli;3034
+2941;Sovicille;10057
+2942;Spadafora;4983
+2943;Sparanise;7376
+2944;Specchia;4748
+2945;Spello;8565
+2946;Sperlonga;3318
+2947;Spezzano Albanese;6977
+2948;Spezzano Grande;4566
+2949;Spigno Saturnia;2937
+2950;Spilamberto;12767
+2951;Spilimbergo;12151
+2952;Spinazzola;6515
+2953;Spinea;27909
+2954;Spinetoli;7132
+2955;Spino d’Adda;6873
+2956;Spirano;5730
+2957;Spoleto;37964
+2958;Spoltore;19378
+2959;Spongano;3673
+2960;Spotorno;3711
+2961;Spresiano;12136
+2962;Squillace;3652
+2963;Squinzano;14031
+2964;Stanghella;4156
+2965;Staranzano;7297
+2966;Statte;13808
+2967;Stezzano;13112
+2968;Stia;2990
+2969;Stienta;3221
+2970;Stigliano;4112
+2971;Stilo;2573
+2972;Stornara;5802
+2973;Stornarella;5344
+2974;Storo;4596
+2975;Stra;7635
+2976;Stradella;11637
+2977;Strambino;6170
+2978;Stresa;4913
+2979;Striano;8522
+2980;Stroncone;4814
+2981;Strongoli;6518
+2982;Sturno;3038
+2983;Subbiano;6373
+2984;Subiaco;8916
+2985;Sulmona;24173
+2986;Sumirago;6149
+2987;Suno;2788
+2988;Supersano;4398
+2989;Supino;4825
+2990;Surbo;15115
+2991;Susa;6340
+2992;Susegana;11831
+2993;Sutri;6643
+2994;Suvereto;3101
+2995;Suzzara;21154
+2996;Taggia;14003
+2997;Tagliacozzo;6755
+2998;Taglio;14298
+2999;Taglio di Po;8271
+3000;Taino;3725
+3001;Talmassons;4045
+3002;Taormina;10872
+3003;Taranto;198283
+3004;Tarcento;8964
+3005;Tarquinia;16269
+3006;Tarvisio;4224
+3007;Tarzo;4346
+3008;Taurianova;15501
+3009;Taurisano;11770
+3010;Tavernelle in Val di Pesa;7753
+3011;Taviano;11972
+3012;Tavullia;7961
+3013;Teano;12303
+3014;Teggiano;7794
+3015;Teglio;4534
+3016;Telgate;5040
+3017;Tempio Pausania;14052
+3018;Teolo;9014
+3019;Teramo;54338
+3020;Terlano;4391
+3021;Terlizzi;27125
+3022;Termini Imerese;26029
+3023;Termoli;33583
+3024;Ternate;2581
+3025;Terni;111189
+3026;Terracina;46323
+3027;Terralba;10196
+3028;Terranova di Sibari;4990
+3029;Terranuova Bracciolini;12292
+3030;Terrasini Favarotta;12535
+3031;Terricciola;4520
+3032;Tertenìa;3927
+3033;Terzigno;18584
+3034;Terzo d’Aquiléia;2843
+3035;Tesero;2940
+3036;Tezze sul Brenta;12817
+3037;Thiene;24309
+3038;Thiesi;2936
+3039;Tiggiano;2839
+3040;Tione di Trento;3635
+3041;Tirano;9050
+3042;Tiriolo;3874
+3043;Tito;7355
+3044;Tivoli;56542
+3045;Toano;4433
+3046;Tocco da Casauria;2640
+3047;Todi;16606
+3048;Toirano;2665
+3049;Tolentino;19409
+3050;Tolfa;5006
+3051;Tollegno;2469
+3052;Tollo;4091
+3053;Tolmezzo;10051
+3054;Tolve;3190
+3055;Tombolo;8390
+3056;Torano Castello;4605
+3057;Torchiarolo;5419
+3058;Torgiano;6662
+3059;Torino di Sangro;3049
+3060;Toritto;8352
+3061;Torpè;2844
+3062;Torre Annunziata;42406
+3063;Torre Boldone;8755
+3064;Torre de’ Passeri;3045
+3065;Torre del Greco;85332
+3066;Torre di Mosto;4770
+3067;Torre Maggiore;17069
+3068;Torre Pellice;4550
+3069;Torre Santa Susanna;10510
+3070;Torrebelvicino;5849
+3071;Torrecuso;3407
+3072;Torreglia;6119
+3073;Torregrotta;7403
+3074;Torrenova;4446
+3075;Torretta;4263
+3076;Torrevecchia Teatina;4206
+3077;Torri del Benaco;3040
+3078;Torri di Quartesolo;11684
+3079;Torrice;4843
+3080;Torricella;4183
+3081;Torricella Sicura;2621
+3082;Torrile;7774
+3083;Torrita di Siena;7276
+3084;Tortolì;11081
+3085;Tortona;27299
+3086;Tortora;6163
+3087;Tortoreto;11757
+3088;Tortorici;6259
+3089;Torviscosa;2829
+3090;Toscolano;7836
+3091;Trabia;10430
+3092;Tradate;18861
+3093;Tramutola;3033
+3094;Trana;3861
+3095;Trani;56031
+3096;Traona;2782
+3097;Trapani;67923
+3098;Trasacco;6198
+3099;Travagliato;13930
+3100;Travedona;4120
+3101;Traversetolo;9474
+3102;Trebaseleghe;12916
+3103;Trebisacce;9095
+3104;Trecastagni;11074
+3105;Trecate;20566
+3106;Trecenta;2711
+3107;Tregnago;4918
+3108;Treia;9309
+3109;Trenta;2614
+3110;Trento;117997
+3111;Trentola;19844
+3112;Trepuzzi;14512
+3113;Trescore Balneario;9814
+3114;Trescore Cremasco;2870
+3115;Tresigallo;4387
+3116;Trevenzuolo;2752
+3117;Trevi;8363
+3118;Treviglio;29815
+3119;Trevignano;10759
+3120;Trevignano Romano;5711
+3121;Treviso;84954
+3122;Trezzano Rosa;5183
+3123;Trezzano sul Naviglio;20956
+3124;Trezzo sull’Adda;12090
+3125;Tribano;4376
+3126;Tribiano;3487
+3127;Tricarico;5202
+3128;Tricase;17525
+3129;Tricesimo;7687
+3130;Trichiana;4820
+3131;Trieste;204338
+3132;Triggiano;27180
+3133;Trinitapoli;14649
+3134;Trino;7085
+3135;Trissino;8709
+3136;Triuggio;8763
+3137;Trivento;4663
+3138;Trivero;5582
+3139;Trofarello;10901
+3140;Troina;9202
+3141;Tromello;3795
+3142;Tronzano Vercellese;3483
+3143;Tropea;6307
+3144;Truccazzano;5913
+3145;Tufino;3674
+3146;Tuglie;5213
+3147;Tuoro sul Trasimeno;3769
+3148;Turbigo;7246
+3149;Turin;870952
+3150;Turriaco;2832
+3151;Tursi;4981
+3152;Tusa;2823
+3153;Tuscania;8369
+3154;Udine;99518
+3155;Ugento;12412
+3156;Uggiano la Chiesa;4385
+3157;Umbertide;16530
+3158;Uras;2825
+3159;Urbania;7076
+3160;Urbino;14558
+3161;Urbisaglia;2577
+3162;Urgnano;9908
+3163;Ururi;2652
+3164;Usini;4362
+3165;Usmate Velate;10293
+3166;Ussana;4175
+3167;Uzzano;5722
+3168;Vado Ligure;8369
+3169;Vaglia;5134
+3170;Vaiano;10068
+3171;Vaiano Cremasco;3714
+3172;Vailate;4542
+3173;Vairano Patenora;6515
+3174;Valdagno;26016
+3175;Valdobbiadene;10349
+3176;Valeggio sul Mincio;15424
+3177;Valentano;2879
+3178;Valenza;18804
+3179;Valenzano;17952
+3180;Valfabbrica;3402
+3181;Valfurva;2581
+3182;Valguarnera Caropepe;18040
+3183;Vallata;2659
+3184;Valle di Maddaloni;2726
+3185;Valle Mosso;3231
+3186;Vallecorsa;2574
+3187;Vallecrosia;6972
+3188;Valledolmo;3500
+3189;Vallelunga Pratameno;3384
+3190;Vallerano;2590
+3191;Valli del Pasubio;3169
+3192;Vallo della Lucania;8352
+3193;Valmadrera;11601
+3194;Valmontone;16073
+3195;Vanzaghello;5389
+3196;Vanzago;9224
+3197;Vaprio d’Adda;9114
+3198;Varallo;7146
+3199;Varallo Pombia;4922
+3200;Varano de’ Melegari;2626
+3201;Varazze;13113
+3202;Varedo;13446
+3203;Varese;80544
+3204;Varmo;2725
+3205;Varna;4546
+3206;Varzi;3194
+3207;Vasanello;4037
+3208;Vazzola;6972
+3209;Vecchiano;12082
+3210;Vedano Olona;7425
+3211;Vedelago;16781
+3212;Veggiano;4765
+3213;Veglie;13947
+3214;Velletri;53188
+3215;Vellezzo Bellini;3328
+3216;Velturno;2909
+3217;Venafro;11209
+3218;Venaria Reale;33564
+3219;Venegono Inferiore;6124
+3220;Venegono Superiore;7293
+3221;Venetico;3979
+3222;Venice;261321
+3223;Venosa;11732
+3224;Ventimiglia;24065
+3225;Verbania;30709
+3226;Verbicaro;2948
+3227;Vercelli;46181
+3228;Vercurago;2818
+3229;Verdello;8082
+3230;Vergato;7664
+3231;Vergiate;8711
+3232;Vermezzo;3931
+3233;Vernate;3342
+3234;Vernio;6048
+3235;Vernole;7062
+3236;Verolanuova;8175
+3237;Verolavecchia;3760
+3238;Verolengo;4841
+3239;Veroli;20414
+3240;Verona;257275
+3241;Veronella;5116
+3242;Verrès;2642
+3243;Vertemate;4162
+3244;Vertova;4642
+3245;Verucchio;10012
+3246;Verzuolo;6480
+3247;Vescovato;3938
+3248;Vestenanuova;2569
+3249;Vestignè;8796
+3250;Vestone;4295
+3251;Vetralla;14020
+3252;Vezzano Ligure;7320
+3253;Vezzano sul Crostolo;4262
+3254;Viadana;20044
+3255;Viagrande;8677
+3256;Viano;3337
+3257;Viareggio;62079
+3258;Vibo Valentia;33642
+3259;Vibonati;3321
+3260;Vicari;2664
+3261;Vicchio;8183
+3262;Vicenza;111620
+3263;Vico del Gargano;7674
+3264;Vico Equense;20919
+3265;Vicopisano;8642
+3266;Vicovaro;3968
+3267;Vidigulfo;6422
+3268;Vidor;3687
+3269;Vieste;13943
+3270;Vietri di Potenza;2787
+3271;Vietri sul Mare;7726
+3272;Vigarano Mainarda;7592
+3273;Vigasio;10134
+3274;Vigevano;63153
+3275;Viggiù;5318
+3276;Viggianello;2940
+3277;Viggiano;3347
+3278;Vigliano Biellese;7738
+3279;Vignanello;4523
+3280;Vignate;9269
+3281;Vignola;25313
+3282;Vignolo;2583
+3283;Vigodarzere;13017
+3284;Vigolzone;4294
+3285;Vigone;5163
+3286;Vigonovo;9998
+3287;Vigonza;22958
+3288;Viguzzolo;3143
+3289;Villa Bartolomea;5880
+3290;Villa Castelli;9269
+3291;Villa Cortese;6171
+3292;Villa d’Almè;6672
+3293;Villa del Conte;5522
+3294;Villa di Serio;6777
+3295;Villa di Tirano;2978
+3296;Villa Guardia;8041
+3297;Villa Lagarina;3823
+3298;Villa Literno;12184
+3299;Villa Minozzo;3658
+3300;Villa San Giovanni;13667
+3301;Villa Santa Lucia;2605
+3302;Villabate;20051
+3303;Villacidro;14019
+3304;Villadose;5014
+3305;Villadossola;6617
+3306;Villafalletto;2911
+3307;Villafranca d’Asti;3047
+3308;Villafranca di Verona;33232
+3309;Villafranca in Lunigiana;4727
+3310;Villafranca Piemonte;4616
+3311;Villafranca Tirrena;8469
+3312;Villafrati;3310
+3313;Villagrande Strisaili;3186
+3314;Villamar;2660
+3315;Villamassargia;3546
+3316;Villanova d’Albenga;2702
+3317;Villanova d’Asti;5686
+3318;Villanova Mondovì;5795
+3319;Villanterio;3065
+3320;Villanuova sul clisi;5827
+3321;Villapiana;5367
+3322;Villaputzu;4718
+3323;Villar Perosa;4044
+3324;Villaricca;31223
+3325;Villarosa;4827
+3326;Villasanta;13972
+3327;Villasimìus;3721
+3328;Villasor;6937
+3329;Villaspeciosa;2588
+3330;Villastellone;4569
+3331;Villaverla;6138
+3332;Villorba;17879
+3333;Vimercate;26170
+3334;Vimodrone;17016
+3335;Vinchiaturo;3320
+3336;Vinci;14650
+3337;Vipiteno;6956
+3338;Visciano;4396
+3339;Viterbo;67798
+3340;Vitorchiano;5235
+3341;Vittoria;64212
+3342;Vittorio Veneto;28389
+3343;Vittuone;9152
+3344;Vitulano;2923
+3345;Vitulazio;7436
+3346;Vizzini;6072
+3347;Vobarno;8112
+3348;Voghenza;3694
+3349;Voghera;39354
+3350;Volano;3048
+3351;Volpago del Montello;10199
+3352;Volpiano;15453
+3353;Volta Mantovana;7339
+3354;Volterra;10290
+3355;Volturara Irpina;3207
+3356;Volvera;8639
+3357;Zafferana Etnea;9607
+3358;Zagarolo;17933
+3359;Zanè;6661
+3360;Zandobbio;2732
+3361;Zanica;8744
+3362;Zapponeta;3464
+3363;Zelo Buon Persico;7373
+3364;Zero Branco;11329
+3365;Zevio;15048
+3366;Ziano Piacentino;2527
+3367;Zibido San Giacomo;6872
+3368;Zimella;4893
+3369;Zinasco;3166
+3370;Zocca;4608
+3371;Zogno;8926
+3372;Zola Predosa;18939
+3373;Zoppola;8483

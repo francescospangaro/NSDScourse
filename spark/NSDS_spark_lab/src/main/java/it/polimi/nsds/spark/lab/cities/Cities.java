@@ -4,8 +4,6 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.streaming.StreamingQuery;
-import org.apache.spark.sql.streaming.StreamingQueryException;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructField;
 import org.apache.spark.sql.types.StructType;
@@ -90,6 +88,59 @@ public class Cities {
         }
 
 
+//        final StructType populationSchema = DataTypes.createStructType(List.of(DataTypes.createStructField("population", DataTypes.IntegerType, false)));
+
+        var over1000 = citiesPopulation
+//                .map((MapFunction<Row, Row>) row -> {
+//                    System.out.println("Separating rows... " + row);
+//                    return row;
+//                }, RowEncoder.apply(citiesPopulationSchema))
+                .filter(col("population").gt(1000));
+        var less1000 = citiesPopulation.filter(col("population").lt(1000));
+        over1000.cache();
+        less1000.cache();
+        Dataset<Row> old1, old2;
+        long sumPopulations = citiesPopulation.agg(sum("population")).first().getLong(0);
+        int iter = 0;
+        while (sumPopulations < 100000000) {
+            old1 = over1000;
+            old2 = less1000;
+//            int finalIter = iter;
+            over1000 = over1000
+//                    .map((MapFunction<Row, Row>) row -> {
+//                        System.out.println(finalIter + " calculation... " + row);
+//                        return row;
+//                    }, RowEncoder.apply(citiesPopulationSchema))
+                    .select(
+//                            col("id"),
+//                            col("city"),
+                            round(col("population")
+                                    .multiply(1.01))
+                                    .cast("int")
+                                    .as("population")
+                    );
+            less1000 = less1000.select(
+//                    col("id"),
+//                    col("city"),
+                    round(col("population")
+                            .multiply(0.99))
+                            .cast("int")
+                            .as("population")
+            );
+
+            over1000.cache();
+            less1000.cache();
+
+            sumPopulations = over1000.union(less1000).agg(sum("population")).first().getLong(0);
+//            over1000.createOrReplaceTempView("over1000");
+//            less1000.createOrReplaceTempView("less1000");
+            old1.unpersist();
+            old2.unpersist();
+
+            System.out.println("Year: " + iter++ + " total population: " + sumPopulations);
+        }
+
+/*
         // Bookings: the value represents the city of the booking
         final Dataset<Row> bookings = spark
                 .readStream()
@@ -114,7 +165,7 @@ public class Cities {
             q4.awaitTermination();
         } catch (final StreamingQueryException e) {
             e.printStackTrace();
-        }
+        }*/
 
         spark.close();
     }

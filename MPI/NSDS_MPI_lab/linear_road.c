@@ -63,8 +63,21 @@ int main(int argc, char **argv)
   // Simulate for num_iterations iterations
   for (int it = 0; it < num_iterations; ++it)
   {
+    // Cars may exit from the last segment
+    int exiting_cars = 0;
+    for (int c = 0; c < segments[(num_segments / num_procs) - 1]; c++)
+    {
+      if (move_next_segment() == 1)
+      {
+        segments[(num_segments / num_procs) - 1]--;
+        exiting_cars++;
+      }
+    }
+    if (rank != num_procs - 1)
+      MPI_Send(&exiting_cars, 1, MPI_INT, rank + 1, 0, MPI_COMM_WORLD);
+
     // Move cars across segments
-    for (int s = 0; s < (num_segments / num_procs) - 1; s++)
+    for (int s = (num_segments / num_procs) - 2; s >= 0; s--)
     {
       for (int c = 0; c < segments[s]; c++)
       {
@@ -85,19 +98,6 @@ int main(int argc, char **argv)
       MPI_Recv(&buff, 1, MPI_INT, rank - 1, 0, MPI_COMM_WORLD, NULL);
       segments[0] += buff;
     }
-
-    // Cars may exit from the last segment
-    int exiting_cars = 0;
-    for (int c = 0; c < segments[(num_segments / num_procs) - 1]; c++)
-    {
-      if (move_next_segment() == 1)
-      {
-        segments[(num_segments / num_procs) - 1]--;
-        exiting_cars++;
-      }
-    }
-    if (rank != num_procs - 1)
-      MPI_Send(&exiting_cars, 1, MPI_INT, rank + 1, 0, MPI_COMM_WORLD);
 
     // When needed, compute the overall sum
     if (it % count_every == 0)

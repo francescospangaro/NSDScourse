@@ -1,0 +1,198 @@
+[
+    {
+        "id": "8a6021db53f50889",
+        "type": "tab",
+        "label": "nodered-group25",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f4f5108aa0cfb388",
+        "type": "chatbot-telegram-receive",
+        "z": "8a6021db53f50889",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "4e87c76acad2a185"
+            ]
+        ]
+    },
+    {
+        "id": "6291c21ba6fb05ec",
+        "type": "chatbot-telegram-send",
+        "z": "8a6021db53f50889",
+        "bot": "e145681d1fc7e143",
+        "botProduction": "",
+        "track": false,
+        "passThrough": false,
+        "errorOutput": false,
+        "outputs": 0,
+        "x": 930,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4e87c76acad2a185",
+        "type": "function",
+        "z": "8a6021db53f50889",
+        "name": "parse request",
+        "func": "delete msg.ts;\ndelete msg.transport;\nmsg.payload.inbound = false;\nmsg.payload.fallback = null;\n\nlet message = {\n    ...msg,\n    location: {\n        country: \"IT\"\n    }\n};\n\nlet day = -1, type = -1, city;\n\nconst req1 = \"What tomorrow's forecast in \";\nconst req2 = \"What's the expected forecast in two days in \";\nconst req_wind1 = \"What tomorrow's wind speed in \";\nconst req_wind2 = \"What's the expected wind speed in two days in \";\n\nif (msg.payload.content.startsWith(req1)) {\n    type = \"forecast\";\n    day = \"tomorrow\";\n    city = msg.payload.content.substring(req1.length);\n} else if (msg.payload.content.startsWith(req2)) {\n    type = \"forecast\";\n    day = \"in two days\";\n    city = msg.payload.content.substring(req2.length);\n} else if (msg.payload.content.startsWith(req_wind1)) {\n    type = \"wind\";\n    day = \"tomorrow\";\n    city = msg.payload.content.substring(req_wind1.length);\n} else if (msg.payload.content.startsWith(req_wind2)) {\n    type = \"wind\";\n    day = \"in two days\";\n    city = msg.payload.content.substring(req_wind2.length);\n}\n\nif (type != -1 && day != -1) {\n    if (city[city.length - 1] == '?')\n        city = city.slice(0, -1);\n    message.location.city = city;\n\n    message.requestInfo = {\n        day: day,\n        type: type\n    };\n\n    let counter = flow.get(\"counter\");\n    counter[type]++;\n    flow.set(\"counter\", counter);\n\n    return [message, null];\n} else {\n    message.payload.content = \"Command not recognized\";\n    return [null, message];\n}",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nlet array = [];\narray[\"wind\"] = 0;\narray[\"forecast\"] = 0;\nflow.set(\"counter\", array);",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "fe57b4dd2a4f4b1b"
+            ],
+            [
+                "6291c21ba6fb05ec"
+            ]
+        ]
+    },
+    {
+        "id": "fe57b4dd2a4f4b1b",
+        "type": "openweathermap",
+        "z": "8a6021db53f50889",
+        "name": "",
+        "wtype": "forecast",
+        "lon": "",
+        "lat": "",
+        "city": "",
+        "country": "",
+        "language": "en",
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "40982f79b9456deb"
+            ]
+        ]
+    },
+    {
+        "id": "40982f79b9456deb",
+        "type": "function",
+        "z": "8a6021db53f50889",
+        "name": "parse response",
+        "func": "const city = msg.location.city;\nconst type = msg.requestInfo.type;\nconst day = msg.requestInfo.day;\n\nconst tomorrow = msg.payload[8];\nconst twoDays = msg.payload[16];\n\nlet responses = context.get(\"res\");\n\nconst index = type + day + city;\nswitch (type) {\n    case \"forecast\":\n        switch (day) {\n            case \"tomorrow\":\n                msg.payload = \"Tomorrow's forecast for \" + city + \" is \" + tomorrow.weather[0].description + \"!\";\n                break;\n            case \"in two days\":\n                msg.payload = \"Expected forecast for \" + city + \" in two days is \" + twoDays.weather[0].description + \"!\";\n                break;\n        }\n        break;\n    case \"wind\":\n        switch (day) {\n            case \"tomorrow\":\n                msg.payload = \"Tomorrow's wind speed in \" + city + \" is \" + tomorrow.wind.speed + \"!\";\n                break;\n            case \"in two days\":\n                msg.payload = \"Expected wind speed in \" + city + \" in two days is \" + twoDays.wind.speed + \"!\";\n                break;\n        }\n        break;\n\n}\n\nif (responses[index] == msg.payload) {\n    msg.payload += \" It is the same as the last time I was asked!\";\n}\nelse {\n    responses[index] = msg.payload;\n    msg.payload += \" It changed since the last time I was asked!\";\n    context.set(\"res\", responses);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\ncontext.set(\"res\", []);",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 220,
+        "wires": [
+            [
+                "85c2a2852fd223b9"
+            ]
+        ]
+    },
+    {
+        "id": "85c2a2852fd223b9",
+        "type": "chatbot-message",
+        "z": "8a6021db53f50889",
+        "name": "",
+        "message": [],
+        "language": "none",
+        "x": 870,
+        "y": 220,
+        "wires": [
+            [
+                "6291c21ba6fb05ec"
+            ]
+        ]
+    },
+    {
+        "id": "debd36926b69c68c",
+        "type": "file",
+        "z": "8a6021db53f50889",
+        "name": "File writer",
+        "filename": "/tmp/stats",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 600,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "055d6e8c5cba9bb5",
+        "type": "inject",
+        "z": "8a6021db53f50889",
+        "name": "Every 1 min",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "12c3c6155a894ac0"
+            ]
+        ]
+    },
+    {
+        "id": "12c3c6155a894ac0",
+        "type": "function",
+        "z": "8a6021db53f50889",
+        "name": "save into file",
+        "func": "const counter = flow.get(\"counter\");\nlet array = [];\narray[\"wind\"] = 0;\narray[\"forecast\"] = 0;\nflow.set(\"counter\", array);\n\nmsg.payload += (\" -> forecast: \" + counter[\"forecast\"] + \", wind: \" + counter[\"wind\"]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "debd36926b69c68c"
+            ]
+        ]
+    },
+    {
+        "id": "e145681d1fc7e143",
+        "type": "chatbot-telegram-node",
+        "botname": "NodeRED group 25",
+        "usernames": "",
+        "polling": "1000",
+        "store": "",
+        "log": "",
+        "debug": false,
+        "skipMediaFiles": false,
+        "webHook": "",
+        "connectMode": "polling",
+        "storeMessages": true,
+        "enableMissionControl": false,
+        "inspectMessages": true,
+        "chatbotId": ""
+    }
+]
